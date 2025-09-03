@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bequest</fullName>
+    <description>Sales process for Bequest record type.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Bequest Confirmation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bequest Discussion</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bequest Register</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bequest Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

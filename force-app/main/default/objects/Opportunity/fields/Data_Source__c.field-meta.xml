@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Source__c</fullName>
+    <description>Read Only - holds pre-Salesforce gift information mapped in from eTapestry</description>
+    <label>Data Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Online gift</fullName>
+                <default>false</default>
+                <label>Online gift</label>
+            </value>
+            <value>
+                <fullName>Online Registration</fullName>
+                <default>false</default>
+                <label>Online Registration</label>
+            </value>
+            <value>
+                <fullName>Sample Data</fullName>
+                <default>false</default>
+                <label>Sample Data</label>
+            </value>
+            <value>
+                <fullName>Everyday Hero</fullName>
+                <default>false</default>
+                <label>Everyday Hero</label>
+            </value>
+            <value>
+                <fullName>JustGiving</fullName>
+                <default>false</default>
+                <label>JustGiving</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

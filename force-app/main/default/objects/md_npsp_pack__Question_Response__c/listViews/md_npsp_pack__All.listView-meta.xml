@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>md_npsp_pack__All</fullName>
+    <columns>NAME</columns>
+    <columns>md_npsp_pack__Campaign__c</columns>
+    <columns>md_npsp_pack__Contact__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>md_npsp_pack__Question__c</columns>
+    <columns>md_npsp_pack__Answer__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

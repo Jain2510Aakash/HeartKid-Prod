@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Offered__c</fullName>
+    <description>These are the services offered by this organisation</description>
+    <inlineHelpText>These are the services offered by this organisation</inlineHelpText>
+    <label>Services Offered</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aboriginal and/or Torres Strait Islander Health Worker</fullName>
+                <default>false</default>
+                <label>Aboriginal and/or Torres Strait Islander Health Worker</label>
+            </value>
+            <value>
+                <fullName>Adult CHD Surgery</fullName>
+                <default>false</default>
+                <label>Adult CHD Surgery</label>
+            </value>
+            <value>
+                <fullName>Adult Congenital Cardiology</fullName>
+                <default>false</default>
+                <label>Adult Congenital Cardiology</label>
+            </value>
+            <value>
+                <fullName>Art Therapy</fullName>
+                <default>false</default>
+                <label>Art Therapy</label>
+            </value>
+            <value>
+                <fullName>Audiology</fullName>
+                <default>false</default>
+                <label>Audiology</label>
+            </value>
+            <value>
+                <fullName>Cardiac Rehabilitation</fullName>
+                <default>false</default>
+                <label>Cardiac Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Cardiac Surgery</fullName>
+                <default>false</default>
+                <label>Cardiac Surgery</label>
+            </value>
+            <value>
+                <fullName>Cardiology</fullName>
+                <default>false</default>
+                <label>Cardiology</label>
+            </value>
+            <value>
+                <fullName>Cardiothoracic Surgery</fullName>
+                <default>false</default>
+                <label>Cardiothoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Chiropractor</fullName>
+                <default>false</default>
+                <label>Chiropractor</label>
+            </value>
+            <value>
+                <fullName>Counselling</fullName>
+                <default>false</default>
+                <label>Counselling</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Dentistry</fullName>
+                <default>false</default>
+                <label>Dentistry</label>
+            </value>
+            <value>
+                <fullName>Dietetics</fullName>
+                <default>false</default>
+                <label>Dietetics</label>
+            </value>
+            <value>
+                <fullName>Exercise Physiology</fullName>
+                <default>false</default>
+                <label>Exercise Physiology</label>
+            </value>
+            <value>
+                <fullName>General Practice</fullName>
+                <default>false</default>
+                <label>General Practice</label>
+            </value>
+            <value>
+                <fullName>Genetic Counselling</fullName>
+                <default>false</default>
+                <label>Genetic Counselling</label>
+            </value>
+            <value>
+                <fullName>Gynaecology</fullName>
+                <default>false</default>
+                <label>Gynaecology</label>
+            </value>
+            <value>
+                <fullName>Massage Therapy</fullName>
+                <default>false</default>
+                <label>Massage Therapy</label>
+            </value>
+            <value>
+                <fullName>Midwifery</fullName>
+                <default>false</default>
+                <label>Midwifery</label>
+            </value>
+            <value>
+                <fullName>Music Therapy</fullName>
+                <default>false</default>
+                <label>Music Therapy</label>
+            </value>
+            <value>
+                <fullName>Neonatology</fullName>
+                <default>false</default>
+                <label>Neonatology</label>
+            </value>
+            <value>
+                <fullName>Nursing</fullName>
+                <default>false</default>
+                <label>Nursing</label>
+            </value>
+            <value>
+                <fullName>Nutrition</fullName>
+                <default>false</default>
+                <label>Nutrition</label>
+            </value>
+            <value>
+                <fullName>Obstetrics</fullName>
+                <default>false</default>
+                <label>Obstetrics</label>
+            </value>
+            <value>
+                <fullName>Occupational Therapy</fullName>
+                <default>false</default>
+                <label>Occupational Therapy</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>Optometry</fullName>
+                <default>false</default>
+                <label>Optometry</label>
+            </value>
+            <value>
+                <fullName>Osteopathy</fullName>
+                <default>false</default>
+                <label>Osteopathy</label>
+            </value>
+            <value>
+                <fullName>Paediatric Cardiology</fullName>
+                <default>false</default>
+                <label>Paediatric Cardiology</label>
+            </value>
+            <value>
+                <fullName>Paediatric Cardiothoracic Surgery</fullName>
+                <default>false</default>
+                <label>Paediatric Cardiothoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Paediatric Psychology</fullName>
+                <default>false</default>
+                <label>Paediatric Psychology</label>
+            </value>
+            <value>
+                <fullName>Paediatrics</fullName>
+                <default>false</default>
+                <label>Paediatrics</label>
+            </value>
+            <value>
+                <fullName>Palliative Care</fullName>
+                <default>false</default>
+                <label>Palliative Care</label>
+            </value>
+            <value>
+                <fullName>Pastoral Care</fullName>
+                <default>false</default>
+                <label>Pastoral Care</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physiotherapy</fullName>
+                <default>false</default>
+                <label>Physiotherapy</label>
+            </value>
+            <value>
+                <fullName>Play Therapy</fullName>
+                <default>false</default>
+                <label>Play Therapy</label>
+            </value>
+            <value>
+                <fullName>Podiatry</fullName>
+                <default>false</default>
+                <label>Podiatry</label>
+            </value>
+            <value>
+                <fullName>Psychiatry</fullName>
+                <default>false</default>
+                <label>Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+                <label>Psychology</label>
+            </value>
+            <value>
+                <fullName>Social Work</fullName>
+                <default>false</default>
+                <label>Social Work</label>
+            </value>
+            <value>
+                <fullName>Speech Pathologist</fullName>
+                <default>false</default>
+                <label>Speech Pathologist</label>
+            </value>
+            <value>
+                <fullName>Speech Pathology</fullName>
+                <default>false</default>
+                <label>Speech Pathology</label>
+            </value>
+            <value>
+                <fullName>Speech Therapy</fullName>
+                <default>false</default>
+                <label>Speech Therapy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

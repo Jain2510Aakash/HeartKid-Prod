@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Method__c</fullName>
+    <description>This is the type of contact had regarding the event</description>
+    <inlineHelpText>This is the type of contact had regarding the event</inlineHelpText>
+    <label>Contact Method</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Face to Face</fullName>
+                <default>false</default>
+                <label>Face to Face</label>
+            </value>
+            <value>
+                <fullName>DIY Form-Contact</fullName>
+                <default>false</default>
+                <label>DIY Form-Contact</label>
+            </value>
+            <value>
+                <fullName>DIY For-Volunteer</fullName>
+                <default>false</default>
+                <label>DIY For-Volunteer</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Letter</fullName>
+                <default>false</default>
+                <label>Letter</label>
+            </value>
+            <value>
+                <fullName>Phone/SMS</fullName>
+                <default>false</default>
+                <label>Phone/SMS</label>
+            </value>
+            <value>
+                <fullName>Post</fullName>
+                <default>false</default>
+                <label>Post</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Visit</fullName>
+                <default>false</default>
+                <label>Visit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

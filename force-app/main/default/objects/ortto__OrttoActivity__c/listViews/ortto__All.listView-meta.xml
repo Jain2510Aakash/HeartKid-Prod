@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ortto__All</fullName>
+    <columns>ortto__InstanceID__c</columns>
+    <columns>NAME</columns>
+    <columns>ortto__Activity_ID__c</columns>
+    <columns>ortto__Contact__c</columns>
+    <columns>ortto__Contact_ID__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>ortto__Object__c</columns>
+    <columns>ortto__Object_ID__c</columns>
+    <columns>ortto__Resource_ID__c</columns>
+    <columns>ortto__Resource_Type__c</columns>
+    <columns>ortto__CreatedAt__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

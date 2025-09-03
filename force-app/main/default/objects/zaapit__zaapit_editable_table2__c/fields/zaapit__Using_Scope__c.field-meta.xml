@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zaapit__Using_Scope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>USING SCOPE:
+Delegated
+Filter for records delegated to another user for action. For example, a query could filter for only delegated Task records.
+Everything
+Filter for all records.
+Mine
+Filter for records owned by the user running the query.
+My_Territory
+Filter for records in the territory of the user running the query. This option is available if territory management is enabled for your organization.
+My_Team_Territory
+Filter for records in the territory of the team of the user running the query. This option is available if territory management is enabled for your organization.
+Team
+Filter for records assigned to a team, such as an Account team.</description>
+    <externalId>false</externalId>
+    <label>Using Scope</label>
+    <length>250</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

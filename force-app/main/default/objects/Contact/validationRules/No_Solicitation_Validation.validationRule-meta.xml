@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Solicitation_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    No_Solicitation__c,
+    OR(
+        ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,
+        ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,
+        ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>No_Solicitation__c</errorDisplayField>
+    <errorMessage>Pls uncheck No Solicitation to Check Donor Email, Donor SMS, Donor Phone Call</errorMessage>
+</ValidationRule>

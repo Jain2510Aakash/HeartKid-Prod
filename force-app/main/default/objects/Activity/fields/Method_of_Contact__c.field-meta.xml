@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Method_of_Contact__c</fullName>
+    <description>The type of contact</description>
+    <inlineHelpText>The type of contact</inlineHelpText>
+    <label>Method of Contact</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Method_of_Contact</valueSetName>
+    </valueSet>
+</CustomField>

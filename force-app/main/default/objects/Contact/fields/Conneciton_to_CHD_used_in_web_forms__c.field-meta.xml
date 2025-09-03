@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conneciton_to_CHD_used_in_web_forms__c</fullName>
+    <description>&quot;I am&quot; field values as shown in contact forms. This field is used as an intermediary field for personal and professional CoHD connection fields on Salesforce</description>
+    <label>Connection to CoHD (used in web forms)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Connection_to_CHD_used_in_web_forms</valueSetName>
+    </valueSet>
+</CustomField>

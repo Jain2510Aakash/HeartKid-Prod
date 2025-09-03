@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisualAntidote__FormNotificationDismissed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Dismissed notification to be added into FormNotification Field. We would not
+            process it again if the Notification is here.</description>
+    <label>FormNotificationDismissed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>hasPrefillEnabled</fullName>
+                <default>false</default>
+                <label>hasPrefillEnabled</label>
+            </value>
+            <value>
+                <fullName>hasBrokenImageField</fullName>
+                <default>false</default>
+                <label>hasBrokenImageField</label>
+            </value>
+            <value>
+                <fullName>hasBrokenImageInStyle</fullName>
+                <default>false</default>
+                <label>hasBrokenImageInStyle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

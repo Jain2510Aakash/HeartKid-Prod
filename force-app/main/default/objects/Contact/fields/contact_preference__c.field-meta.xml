@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>contact_preference__c</fullName>
+    <label>Contact Preference</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>All Appeals</fullName>
+                <default>false</default>
+                <label>All Appeals</label>
+            </value>
+            <value>
+                <fullName>Bequest only</fullName>
+                <default>false</default>
+                <label>Bequest only</label>
+            </value>
+            <value>
+                <fullName>Christmas Appeal Only</fullName>
+                <default>false</default>
+                <label>Christmas Appeal Only</label>
+            </value>
+            <value>
+                <fullName>Corporate only</fullName>
+                <default>false</default>
+                <label>Corporate only</label>
+            </value>
+            <value>
+                <fullName>Do Not Contact</fullName>
+                <default>false</default>
+                <label>Do Not Contact</label>
+            </value>
+            <value>
+                <fullName>Do Not Email</fullName>
+                <default>false</default>
+                <label>Do Not Email</label>
+            </value>
+            <value>
+                <fullName>Do Not Mail</fullName>
+                <default>false</default>
+                <label>Do Not Mail</label>
+            </value>
+            <value>
+                <fullName>Do Not Phone</fullName>
+                <default>false</default>
+                <label>Do Not Phone</label>
+            </value>
+            <value>
+                <fullName>Do Not Text</fullName>
+                <default>false</default>
+                <label>Do Not Text</label>
+            </value>
+            <value>
+                <fullName>Event only</fullName>
+                <default>false</default>
+                <label>Event only</label>
+            </value>
+            <value>
+                <fullName>Grants only</fullName>
+                <default>false</default>
+                <label>Grants only</label>
+            </value>
+            <value>
+                <fullName>Health care professional newsletter</fullName>
+                <default>false</default>
+                <label>Health care professional newsletter</label>
+            </value>
+            <value>
+                <fullName>Major Gift only</fullName>
+                <default>false</default>
+                <label>Major Gift only</label>
+            </value>
+            <value>
+                <fullName>Merchandise only</fullName>
+                <default>false</default>
+                <label>Merchandise only</label>
+            </value>
+            <value>
+                <fullName>Philanthropy only</fullName>
+                <default>false</default>
+                <label>Philanthropy only</label>
+            </value>
+            <value>
+                <fullName>Regular Giving only</fullName>
+                <default>false</default>
+                <label>Regular Giving only</label>
+            </value>
+            <value>
+                <fullName>Review Vulnerable</fullName>
+                <default>false</default>
+                <label>Review Vulnerable</label>
+            </value>
+            <value>
+                <fullName>Tax Appeal Only</fullName>
+                <default>false</default>
+                <label>Tax Appeal Only</label>
+            </value>
+            <value>
+                <fullName>Trusts and Foundations only</fullName>
+                <default>false</default>
+                <label>Trusts and Foundations only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

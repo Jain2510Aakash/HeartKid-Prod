@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funraisin__Campaign_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Campaign Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>event</fullName>
+                <default>false</default>
+                <label>event</label>
+            </value>
+            <value>
+                <fullName>page</fullName>
+                <default>false</default>
+                <label>page</label>
+            </value>
+            <value>
+                <fullName>team</fullName>
+                <default>false</default>
+                <label>team</label>
+            </value>
+            <value>
+                <fullName>raffle</fullName>
+                <default>false</default>
+                <label>raffle</label>
+            </value>
+            <value>
+                <fullName>individual</fullName>
+                <default>false</default>
+                <label>individual</label>
+            </value>
+            <value>
+                <fullName>organisation</fullName>
+                <default>false</default>
+                <label>organisation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

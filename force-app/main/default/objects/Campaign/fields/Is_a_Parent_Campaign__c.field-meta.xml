@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_a_Parent_Campaign__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox useful for workflows/Validation Rules and in reporting</description>
+    <label>Is a Parent Campaign</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

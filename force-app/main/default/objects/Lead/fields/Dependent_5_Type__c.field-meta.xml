@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dependent_5_Type__c</fullName>
+    <description>HK Connect web form use only</description>
+    <label>Dependent 5 Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heart Kid</fullName>
+                <default>false</default>
+                <label>Heart Kid</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Sibling</fullName>
+                <default>false</default>
+                <label>Heart Kid Sibling</label>
+            </value>
+            <value>
+                <fullName>Heart Angel</fullName>
+                <default>false</default>
+                <label>Heart Angel</label>
+            </value>
+            <value>
+                <fullName>Heart Angel Sibling</fullName>
+                <default>false</default>
+                <label>Heart Angel Sibling</label>
+            </value>
+            <value>
+                <fullName>Child of an Adult Heart Kid</fullName>
+                <default>false</default>
+                <label>Child of an Adult Heart Kid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

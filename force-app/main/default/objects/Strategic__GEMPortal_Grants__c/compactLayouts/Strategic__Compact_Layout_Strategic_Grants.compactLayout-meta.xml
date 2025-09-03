@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic__Compact_Layout_Strategic_Grants</fullName>
+    <fields>Strategic__Funder_Name__c</fields>
+    <fields>Strategic__Grant_Opening_Date__c</fields>
+    <fields>Strategic__Grant_Closing_Date__c</fields>
+    <fields>Strategic__Grant_Closing_Date_Status__c</fields>
+    <fields>Strategic__Grant_Estimated_Distribution_Date__c</fields>
+    <label>Compact Layout Strategic Grants</label>
+</CompactLayout>

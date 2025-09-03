@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today_is_First_Day_of_CFY__c</fullName>
+    <description>Checkbox ticks if today is 1st July, regardless of year. Used in a Flow to clear the &apos;Total Fin Assist CFY&apos; field on the HH Account. Not on page layout.</description>
+    <formula>AND(
+MONTH(TODAY())=7,
+DAY(TODAY())=1
+)</formula>
+    <label>Today is First Day of CFY</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

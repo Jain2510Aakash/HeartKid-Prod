@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted_Leads_Birthdate__c</fullName>
+    <description>You cannot map a Lead&apos;s Birthdate to the standard Contact Birthdate field, so this custom field will capture that date and a workflow will update the standard birthdate field with this value when a Contact is created and this field is not blank. This field will not be added to the page layout.</description>
+    <label>Converted Leads Birthdate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

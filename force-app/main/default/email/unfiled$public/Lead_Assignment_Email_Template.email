@@ -1,0 +1,3 @@
+Hello {!Lead.OwnerFullName},
+
+A new Lead has been assigned to you.

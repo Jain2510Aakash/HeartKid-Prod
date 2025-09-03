@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Personal_1_1_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>No mass emails, no marketing, no fundraising</inlineHelpText>
+    <label>Support Personal 1:1 Only</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

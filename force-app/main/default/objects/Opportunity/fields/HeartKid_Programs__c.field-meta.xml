@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HeartKid_Programs__c</fullName>
+    <description>These are the HeartKid programs related to grants received</description>
+    <inlineHelpText>These are the HeartKid programs related to grants received</inlineHelpText>
+    <label>HeartKid Programs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Capacity Building - equipment</fullName>
+                <default>false</default>
+                <label>Capacity Building - equipment</label>
+            </value>
+            <value>
+                <fullName>Capacity Building - personnel</fullName>
+                <default>false</default>
+                <label>Capacity Building - personnel</label>
+            </value>
+            <value>
+                <fullName>Care bags</fullName>
+                <default>false</default>
+                <label>Care bags</label>
+            </value>
+            <value>
+                <fullName>Classroom Inclusion</fullName>
+                <default>false</default>
+                <label>Classroom Inclusion</label>
+            </value>
+            <value>
+                <fullName>Early Childhood Intervention</fullName>
+                <default>false</default>
+                <label>Early Childhood Intervention</label>
+            </value>
+            <value>
+                <fullName>Financial Assistance</fullName>
+                <default>false</default>
+                <label>Financial Assistance</label>
+            </value>
+            <value>
+                <fullName>Indigenous</fullName>
+                <default>false</default>
+                <label>Indigenous</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Regional and Rural Support Development</fullName>
+                <default>false</default>
+                <label>Regional and Rural Support Development</label>
+            </value>
+            <value>
+                <fullName>Teen Transition</fullName>
+                <default>false</default>
+                <label>Teen Transition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

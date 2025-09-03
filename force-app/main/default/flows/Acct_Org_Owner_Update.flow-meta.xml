@@ -97,6 +97,7 @@
         <nameSegment>Account.Org_Account_Ownership_Assignment_WA</nameSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Check_Billing_State</name>
         <label>Check Billing State</label>

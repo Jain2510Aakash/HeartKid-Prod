@@ -151,6 +151,7 @@
         <nameSegment>Campaign.New_Fundraising_Campaign_Creation_Alert_WA</nameSegment>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <processMetadataValues>
             <name>index</name>

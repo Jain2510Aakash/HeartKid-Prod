@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deliverable_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the deliverable owner who may be different to the grant owner and are responsible for ensuring deliverables are submitted on time to the funding body</description>
+    <inlineHelpText>This is the deliverable owner who may be different to the grant owner and are responsible for ensuring deliverables are submitted on time to the funding body</inlineHelpText>
+    <label>Deliverable Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Deliverables</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

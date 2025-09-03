@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zaapit__fields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field to display in the editable table, use &apos;#&apos; as a field separator, use the original field API name</description>
+    <inlineHelpText>The field to display in the editable table, use &apos;#&apos; as a field separator, use the original field API name</inlineHelpText>
+    <label>fields</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

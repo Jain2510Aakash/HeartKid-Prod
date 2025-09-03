@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donation_Sub_Type__c</fullName>
+    <description>Read Only - holds pre-Salesforce gift information mapped in from eTapestry</description>
+    <label>Donation Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Donation</fullName>
+                <default>false</default>
+                <label>Donation</label>
+            </value>
+            <value>
+                <fullName>Donation - P2P group amount</fullName>
+                <default>false</default>
+                <label>Donation - P2P group amount</label>
+            </value>
+            <value>
+                <fullName>Regular Giving</fullName>
+                <default>false</default>
+                <label>Regular Giving</label>
+            </value>
+            <value>
+                <fullName>In Memoriam</fullName>
+                <default>false</default>
+                <label>In Memoriam</label>
+            </value>
+            <value>
+                <fullName>Bequest</fullName>
+                <default>false</default>
+                <label>Bequest</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Corporate Match Giving</fullName>
+                <default>false</default>
+                <label>Corporate Match Giving</label>
+            </value>
+            <value>
+                <fullName>Workplace Giving</fullName>
+                <default>false</default>
+                <label>Workplace Giving</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>In kind goods</fullName>
+                <default>false</default>
+                <label>In kind goods</label>
+            </value>
+            <value>
+                <fullName>In kind services</fullName>
+                <default>false</default>
+                <label>In kind services</label>
+            </value>
+            <value>
+                <fullName>Merchandise</fullName>
+                <default>false</default>
+                <label>Merchandise</label>
+            </value>
+            <value>
+                <fullName>Ticket</fullName>
+                <default>false</default>
+                <label>Ticket</label>
+            </value>
+            <value>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+                <label>Raffle</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Auction Item</fullName>
+                <default>false</default>
+                <label>Auction Item</label>
+            </value>
+            <value>
+                <fullName>Acrylic Donation Box</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Acrylic Donation Box</label>
+            </value>
+            <value>
+                <fullName>Bond Refund</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bond Refund</label>
+            </value>
+            <value>
+                <fullName>Vending Machines</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vending Machines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

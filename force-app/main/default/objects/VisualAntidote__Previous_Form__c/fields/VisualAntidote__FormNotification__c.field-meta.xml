@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisualAntidote__FormNotification__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used for controlling notification into the form. This is not
+            related to EmailNotification.</description>
+    <label>FormNotification</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>hasPrefillEnabled</fullName>
+                <default>false</default>
+                <label>hasPrefillEnabled</label>
+            </value>
+            <value>
+                <fullName>hasBrokenImageField</fullName>
+                <default>false</default>
+                <label>hasBrokenImageField</label>
+            </value>
+            <value>
+                <fullName>hasBrokenImageInStyle</fullName>
+                <default>false</default>
+                <label>hasBrokenImageInStyle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>webkul_wws__woo_Post_Content__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Post Content In woo Commerce</description>
+    <inlineHelpText>Post Content In woo Commerce</inlineHelpText>
+    <label>Woo Post Content</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

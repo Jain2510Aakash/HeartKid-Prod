@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fundraising_Team_Page__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes if the fundraising page is a team page. If unchecked, it is an individual fundraising page</description>
+    <inlineHelpText>Denotes if the fundraising page is a team page. If unchecked, it is an individual fundraising page</inlineHelpText>
+    <label>Fundraising Team Page</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

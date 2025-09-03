@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Primary_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>If any value is selected other than Parent/Carer in &apos;Personal Connection to CoHD&apos; field on HL Connect Form then it&apos;s Primary Contact.</inlineHelpText>
+    <label>Is Primary Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

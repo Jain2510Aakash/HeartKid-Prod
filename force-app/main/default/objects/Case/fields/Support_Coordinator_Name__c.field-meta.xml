@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Coordinator_Name__c</fullName>
+    <description>eTapestry Journal Entry values for data pre-dating 2021</description>
+    <label>Support Coordinator Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Support_Coordinator_Name</valueSetName>
+    </valueSet>
+</CustomField>

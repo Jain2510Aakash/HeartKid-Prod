@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Programs__c</fullName>
+    <label>Support Programs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ECI - Better Tomorrows</fullName>
+                <default>false</default>
+                <label>ECI - Better Tomorrows</label>
+            </value>
+            <value>
+                <fullName>ECI - Better Beginnings online</fullName>
+                <default>false</default>
+                <label>ECI - Better Beginnings online</label>
+            </value>
+            <value>
+                <fullName>ECI - Better Beginnings in-person events</fullName>
+                <default>false</default>
+                <label>ECI - Better Beginnings in-person events</label>
+            </value>
+            <value>
+                <fullName>ECI - Better Beginnings individual therapy</fullName>
+                <default>false</default>
+                <label>ECI - Better Beginnings individual therapy</label>
+            </value>
+            <value>
+                <fullName>ECI - Better Starts online</fullName>
+                <default>false</default>
+                <label>ECI - Better Starts online</label>
+            </value>
+            <value>
+                <fullName>ECI - Better Starts in-person events</fullName>
+                <default>false</default>
+                <label>ECI - Better Starts in-person events</label>
+            </value>
+            <value>
+                <fullName>ECI</fullName>
+                <default>false</default>
+                <label>ECI</label>
+            </value>
+            <value>
+                <fullName>Mental Health (Psychology or counselling services)</fullName>
+                <default>false</default>
+                <label>Mental Health (Psychology or counselling services)</label>
+            </value>
+            <value>
+                <fullName>Peer Mentor Support</fullName>
+                <default>false</default>
+                <label>Peer Mentor Support</label>
+            </value>
+            <value>
+                <fullName>Tuition Support (Missing schools, RMHC School Tutoring etc)</fullName>
+                <default>false</default>
+                <label>Tuition Support (Missing schools, RMHC School Tutoring etc)</label>
+            </value>
+            <value>
+                <fullName>NDIS services:  OT, Speech pathologist, Physio Therapy etc.</fullName>
+                <default>false</default>
+                <label>NDIS services:  OT, Speech pathologist, Physio Therapy etc.</label>
+            </value>
+            <value>
+                <fullName>Lego Therapy</fullName>
+                <default>false</default>
+                <label>Lego Therapy</label>
+            </value>
+            <value>
+                <fullName>Lego Play session</fullName>
+                <default>false</default>
+                <label>Lego Play session</label>
+            </value>
+            <value>
+                <fullName>Online school holiday activities</fullName>
+                <default>false</default>
+                <label>Online school holiday activities</label>
+            </value>
+            <value>
+                <fullName>Little YACs</fullName>
+                <default>false</default>
+                <label>Little YACs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

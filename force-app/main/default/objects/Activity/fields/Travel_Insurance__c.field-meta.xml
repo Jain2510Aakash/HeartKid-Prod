@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Travel_Insurance__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checklist item for external referral</description>
+    <inlineHelpText>Checklist item for external referral</inlineHelpText>
+    <label>Travel &amp; Insurance</label>
+    <type>Checkbox</type>
+</CustomField>

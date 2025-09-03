@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_Type_of_Support__c</fullName>
+    <description>Value will map from web to case Case created via the Helpline web form process</description>
+    <label>Web Type of Support</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Teen</fullName>
+                <default>false</default>
+                <label>Teen</label>
+            </value>
+            <value>
+                <fullName>Adult</fullName>
+                <default>false</default>
+                <label>Adult</label>
+            </value>
+            <value>
+                <fullName>Antenatal</fullName>
+                <default>false</default>
+                <label>Antenatal</label>
+            </value>
+            <value>
+                <fullName>Early Childhood</fullName>
+                <default>false</default>
+                <label>Early Childhood</label>
+            </value>
+            <value>
+                <fullName>Parental</fullName>
+                <default>false</default>
+                <label>Parental</label>
+            </value>
+            <value>
+                <fullName>Resources</fullName>
+                <default>false</default>
+                <label>Resources</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unrelated to support</fullName>
+                <default>false</default>
+                <label>Unrelated to support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

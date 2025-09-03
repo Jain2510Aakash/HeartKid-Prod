@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Role__c</fullName>
+    <description>What type of role are they applying for</description>
+    <inlineHelpText>What type of role are they applying for</inlineHelpText>
+    <label>Volunteer Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Volunteer_Role</valueSetName>
+    </valueSet>
+</CustomField>

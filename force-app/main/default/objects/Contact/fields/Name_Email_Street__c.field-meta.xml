@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Email_Street__c</fullName>
+    <description>Created for deduping purposes</description>
+    <externalId>false</externalId>
+    <formula>FirstName  &amp;  LastName  &amp;  Email  &amp;  MailingStreet</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Created for deduping purposes</inlineHelpText>
+    <label>Name &amp; Email &amp; Street</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

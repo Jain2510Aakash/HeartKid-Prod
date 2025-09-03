@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dollar_Value_of_Support__c</fullName>
+    <description>This is the old value of financial support and should not be used now. New financial assistance information sits on the Support Occasion tab.</description>
+    <inlineHelpText>This is the old value of financial support and should not be used now. New financial assistance information sits on the Support Occasion tab.</inlineHelpText>
+    <label>Dollar Value of Support</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

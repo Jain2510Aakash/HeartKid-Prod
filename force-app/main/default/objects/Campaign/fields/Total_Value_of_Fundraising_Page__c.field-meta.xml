@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Value_of_Fundraising_Page__c</fullName>
+    <description>Sum of associated won sponsor donation Opportunities</description>
+    <inlineHelpText>Sum of associated won sponsor donation Opportunities</inlineHelpText>
+    <label>Total Value of Fundraising Page</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Assistance__c</fullName>
+    <description>Financial Assistance provided by HeartKids</description>
+    <inlineHelpText>Financial Assistance provided by HeartKids</inlineHelpText>
+    <label>Financial Assistance</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Financial_Assistance</valueSetName>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Personal_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Support_Personal_1_1_Only__c,
+    OR(
+        ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
+        ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c,
+        ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,
+        ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,
+        ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c,
+        ISCHANGED(Support_Updates__c) &amp;&amp; Support_Updates__c,
+        ISCHANGED(Healthcare_Professional_Newsletter__c) &amp;&amp; Healthcare_Professional_Newsletter__c,
+        ISCHANGED(Key_Strategic_Communication__c) &amp;&amp; Key_Strategic_Communication__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Support_Personal_1_1_Only__c</errorDisplayField>
+    <errorMessage>Pls uncheck Support Personal 1:1 to Check Marketing Emails, Marketing SMS, Donor Emails, Donor SMS, Donor phone Calls, Support Updates, HealthCare Professional Newsletter, Key Strategic Communication.</errorMessage>
+</ValidationRule>

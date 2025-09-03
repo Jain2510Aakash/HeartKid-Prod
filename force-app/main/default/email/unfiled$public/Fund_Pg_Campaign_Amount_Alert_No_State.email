@@ -1,0 +1,7 @@
+Hi, 
+
+This fundraising page has raised {!Campaign.Total_Value_of_Fundraising_Page__c}: {!Campaign.Link}
+
+Please follow up accordingly. 
+
+*Please do not respond to this email, for further help please see your system administrator

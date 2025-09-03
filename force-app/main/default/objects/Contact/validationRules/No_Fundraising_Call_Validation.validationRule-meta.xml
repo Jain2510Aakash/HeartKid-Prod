@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Fundraising_Call_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    No_Telemarketing__c	,
+    OR(
+        ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>No_Telemarketing__c</errorDisplayField>
+    <errorMessage>Pls uncheck No Fundraising Calls to Check Donor Phone Call</errorMessage>
+</ValidationRule>

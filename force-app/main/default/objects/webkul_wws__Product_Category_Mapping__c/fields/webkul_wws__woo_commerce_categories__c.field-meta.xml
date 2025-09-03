@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>webkul_wws__woo_commerce_categories__c</fullName>
+    <deprecated>false</deprecated>
+    <description>woo commerce categories</description>
+    <inlineHelpText>woo commerce categories</inlineHelpText>
+    <label>woo commerce categories</label>
+    <referenceTo>webkul_wws__woo_commerce_categories__c</referenceTo>
+    <relationshipLabel>Product Category Mapping</relationshipLabel>
+    <relationshipName>Product_Category_Mapping</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>shareconnect__Debug_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>shareconnect__Action__c</columns>
+    <columns>shareconnect__Detail__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>shareconnect__Type__c</field>
+        <operation>equals</operation>
+        <value>Debug</value>
+    </filters>
+    <label>Debug Logs</label>
+</ListView>

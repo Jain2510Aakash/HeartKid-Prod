@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>webkul_wws__woo_Thumbnail_Image__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IMAGE( IF( BEGINS(webkul_wws__woo_Thumbnail_ID__c, &apos;068&apos;) , &quot;/sfc/servlet.shepherd/version/download/&quot;, &quot;/servlet/servlet.FileDownload?file=&quot;) +webkul_wws__woo_Thumbnail_ID__c, Name+&quot; Image&quot; , 200,200)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Woo Thumbnail Image</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

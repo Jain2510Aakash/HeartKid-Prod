@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_close_date_month_current_month__c</fullName>
+    <description>This field is used for Dashboard reports and is set to TRUE if Close Date&apos;s month equals current month</description>
+    <formula>(IF( MONTH( CloseDate ) = MONTH(Today()), True, False))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field is used for Dashboard reports and is set to TRUE if Close Date&apos;s month equals current month</inlineHelpText>
+    <label>Is close date month = current month?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

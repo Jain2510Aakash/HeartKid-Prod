@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Solicitation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Solicit Consent field values populated at the time of the creation of this Contact. These values was mapped to the &quot;No Solicitation&quot; checkbox on the Contact but this field does not automatically map anymore</description>
+    <label>No Solicitation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -100,6 +100,7 @@
         <nameSegment>emailSimple</nameSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <description>Identifies Dependent who turn 14 and begins the conversion to Contact process</description>
     <environments>Default</environments>
     <formulas>

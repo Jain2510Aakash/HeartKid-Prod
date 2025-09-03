@@ -1,0 +1,8 @@
+Hello, a new Organisation Account has been created and assigned to your ownership
+
+Account Name: {!Account.Name}
+Link to record: {!Account.Link}
+
+Please follow up accordingly
+
+*Please do not reply to this email, for further help please see your system administrator*

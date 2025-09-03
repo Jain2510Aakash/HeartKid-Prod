@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Communication_Interpretation__c</fullName>
+    <label>ASQ3 Communication Interpretation</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Above cut off</fullName>
+                <default>false</default>
+                <label>Above cut off</label>
+            </value>
+            <value>
+                <fullName>Close to cut off</fullName>
+                <default>false</default>
+                <label>Close to cut off</label>
+            </value>
+            <value>
+                <fullName>Below cut off</fullName>
+                <default>false</default>
+                <label>Below cut off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

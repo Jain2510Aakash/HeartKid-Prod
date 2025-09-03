@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_Aged_16_and_Under</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Age__c</columns>
+    <columns>Personal_Connection_to_CHD__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>npsp__Do_Not_Contact__c</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Age__c</field>
+        <operation>lessOrEqual</operation>
+        <value>16</value>
+    </filters>
+    <label>Contacts Aged 16 and Under</label>
+</ListView>

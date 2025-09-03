@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_a_Fundraiser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Updated via Process Builder the first time this Contact is associated with a Fundraising Page type Campaign via the Page Owner lookup field</description>
+    <label>Is a Fundraiser</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

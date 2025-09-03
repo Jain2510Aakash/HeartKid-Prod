@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund__c</fullName>
+    <label>Fund</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>General/Untied</fullName>
+                <default>false</default>
+                <label>General/Untied</label>
+            </value>
+            <value>
+                <fullName>NSW-General Donations</fullName>
+                <default>false</default>
+                <label>NSW-General Donations</label>
+            </value>
+            <value>
+                <fullName>NSW-General Operating</fullName>
+                <default>false</default>
+                <label>NSW-General Operating</label>
+            </value>
+            <value>
+                <fullName>NSW-Regional Support</fullName>
+                <default>false</default>
+                <label>NSW-Regional Support</label>
+            </value>
+            <value>
+                <fullName>NSW-Sundry</fullName>
+                <default>false</default>
+                <label>NSW-Sundry</label>
+            </value>
+            <value>
+                <fullName>NSW-Support</fullName>
+                <default>false</default>
+                <label>NSW-Support</label>
+            </value>
+            <value>
+                <fullName>NSW-Where it is needed most</fullName>
+                <default>false</default>
+                <label>NSW-Where it is needed most</label>
+            </value>
+            <value>
+                <fullName>QLD-Dragon Boat Ticket Sales</fullName>
+                <default>false</default>
+                <label>QLD-Dragon Boat Ticket Sales</label>
+            </value>
+            <value>
+                <fullName>QLD-Family Camp</fullName>
+                <default>false</default>
+                <label>QLD-Family Camp</label>
+            </value>
+            <value>
+                <fullName>QLD-Gala Ball Ticket Sales</fullName>
+                <default>false</default>
+                <label>QLD-Gala Ball Ticket Sales</label>
+            </value>
+            <value>
+                <fullName>QLD-HeartKids</fullName>
+                <default>false</default>
+                <label>QLD-HeartKids</label>
+            </value>
+            <value>
+                <fullName>QLD-Noosa Tri Ticket Sales</fullName>
+                <default>false</default>
+                <label>QLD-Noosa Tri Ticket Sales</label>
+            </value>
+            <value>
+                <fullName>QLD-Regional Support</fullName>
+                <default>false</default>
+                <label>QLD-Regional Support</label>
+            </value>
+            <value>
+                <fullName>QLD-Teen Camp</fullName>
+                <default>false</default>
+                <label>QLD-Teen Camp</label>
+            </value>
+            <value>
+                <fullName>QLD - Where it is needed most</fullName>
+                <default>false</default>
+                <label>QLD - Where it is needed most</label>
+            </value>
+            <value>
+                <fullName>QLD-Where it is needed most</fullName>
+                <default>false</default>
+                <label>QLD-Where it is needed most</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>SA-Where it is needed most</fullName>
+                <default>false</default>
+                <label>SA-Where it is needed most</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Tied</fullName>
+                <default>false</default>
+                <label>Tied</label>
+            </value>
+            <value>
+                <fullName>VIC-Where it is needed most</fullName>
+                <default>false</default>
+                <label>VIC-Where it is needed most</label>
+            </value>
+            <value>
+                <fullName>WA-General</fullName>
+                <default>false</default>
+                <label>WA-General</label>
+            </value>
+            <value>
+                <fullName>WA-Restricted</fullName>
+                <default>false</default>
+                <label>WA-Restricted</label>
+            </value>
+            <value>
+                <fullName>WA-Unrestricted</fullName>
+                <default>false</default>
+                <label>WA-Unrestricted</label>
+            </value>
+            <value>
+                <fullName>Where it is needed most QLD</fullName>
+                <default>false</default>
+                <label>Where it is needed most QLD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

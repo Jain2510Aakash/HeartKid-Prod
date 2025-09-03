@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_Professional_Connection_to_CHD__c</fullName>
+    <label>Web Professional Connection to CHD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate Partner/Contact</fullName>
+                <default>false</default>
+                <label>Corporate Partner/Contact</label>
+            </value>
+            <value>
+                <fullName>Health Professional</fullName>
+                <default>false</default>
+                <label>Health Professional</label>
+            </value>
+            <value>
+                <fullName>Hospital Administration</fullName>
+                <default>false</default>
+                <label>Hospital Administration</label>
+            </value>
+            <value>
+                <fullName>Hospital PR</fullName>
+                <default>false</default>
+                <label>Hospital PR</label>
+            </value>
+            <value>
+                <fullName>Media Contact</fullName>
+                <default>false</default>
+                <label>Media Contact</label>
+            </value>
+            <value>
+                <fullName>Researcher</fullName>
+                <default>false</default>
+                <label>Researcher</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

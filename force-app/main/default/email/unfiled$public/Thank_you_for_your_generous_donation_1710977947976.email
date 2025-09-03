@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Thank you so much for your generous donation of&nbsp;{{{Recipient.npo02__LastOppAmount__c}}} to support families impacted by childhood-onset heart disease (CoHD).<br />
+<br />
+Your support will ensure more families are provided the emotional and practical support they need during the toughest moments, from care bags to professional referrals to research into the causes and treatments for CoHD.<br />
+<br />
+Thank you again for your generosity, we hope you feel inspired by the impact you're making today.<br />
+<br />
+With gratitude,<br />
+HeartKids</body>
+</html>

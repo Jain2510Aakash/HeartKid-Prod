@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasOptedOutOfEmail</fullName>
+    <description>Global unsubscribe</description>
+    <inlineHelpText>Opt out of all email communications</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

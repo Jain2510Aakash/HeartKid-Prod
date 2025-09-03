@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_and_Consent_Signed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is the contract for the ECIP program</description>
+    <inlineHelpText>This is the contract for the ECIP program</inlineHelpText>
+    <label>Contract and Consent Signed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Hospital</fullName>
+                <default>true</default>
+                <label>In Hospital</label>
+            </value>
+            <value>
+                <fullName>ECIP Program</fullName>
+                <default>false</default>
+                <label>ECIP Program</label>
+            </value>
+            <value>
+                <fullName>Helpline</fullName>
+                <default>false</default>
+                <label>Helpline</label>
+            </value>
+            <value>
+                <fullName>In patient</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In Patient</label>
+            </value>
+            <value>
+                <fullName>Out patient</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Out patient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

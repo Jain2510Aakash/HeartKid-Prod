@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>shareconnect__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>File_Linked</fullName>
+                <default>false</default>
+                <label>File Linked</label>
+            </value>
+            <value>
+                <fullName>File_Uploaded</fullName>
+                <default>false</default>
+                <label>File Uploaded</label>
+            </value>
+            <value>
+                <fullName>Folder_Created</fullName>
+                <default>false</default>
+                <label>Folder Created</label>
+            </value>
+            <value>
+                <fullName>Folder_Linked</fullName>
+                <default>false</default>
+                <label>Folder Linked</label>
+            </value>
+            <value>
+                <fullName>Email_Sent</fullName>
+                <default>false</default>
+                <label>Email Sent</label>
+            </value>
+            <value>
+                <fullName>File_Shared</fullName>
+                <default>false</default>
+                <label>File Shared</label>
+            </value>
+            <value>
+                <fullName>Folder_Shared</fullName>
+                <default>false</default>
+                <label>Folder Shared</label>
+            </value>
+            <value>
+                <fullName>Folder_Renamed</fullName>
+                <default>false</default>
+                <label>Folder Renamed</label>
+            </value>
+            <value>
+                <fullName>File_Renamed</fullName>
+                <default>false</default>
+                <label>File Renamed</label>
+            </value>
+            <value>
+                <fullName>File_Viewed</fullName>
+                <default>false</default>
+                <label>File Viewed</label>
+            </value>
+            <value>
+                <fullName>Folder_Viewed</fullName>
+                <default>false</default>
+                <label>Folder Viewed</label>
+            </value>
+            <value>
+                <fullName>Folder_URL_Copied</fullName>
+                <default>false</default>
+                <label>Folder URL Copied</label>
+            </value>
+            <value>
+                <fullName>File_URL_Copied</fullName>
+                <default>false</default>
+                <label>File URL Copied</label>
+            </value>
+            <value>
+                <fullName>File_Unlinked</fullName>
+                <default>false</default>
+                <label>File Unlinked</label>
+            </value>
+            <value>
+                <fullName>Folder_Unlinked</fullName>
+                <default>false</default>
+                <label>Folder Unlinked</label>
+            </value>
+            <value>
+                <fullName>File_Downloaded</fullName>
+                <default>false</default>
+                <label>File Downloaded</label>
+            </value>
+            <value>
+                <fullName>File_Deleted</fullName>
+                <default>false</default>
+                <label>File Deleted</label>
+            </value>
+            <value>
+                <fullName>Folder_Deleted</fullName>
+                <default>false</default>
+                <label>Folder Deleted</label>
+            </value>
+            <value>
+                <fullName>Automate_SharePoint</fullName>
+                <default>false</default>
+                <label>Automate SharePoint</label>
+            </value>
+            <value>
+                <fullName>File_Saved</fullName>
+                <default>false</default>
+                <label>File Saved</label>
+            </value>
+            <value>
+                <fullName>Set_Default_Record_Folder</fullName>
+                <default>false</default>
+                <label>Set Default Record Folder</label>
+            </value>
+            <value>
+                <fullName>Unset_Default_Record_Folder</fullName>
+                <default>false</default>
+                <label>Unset Default Record Folder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

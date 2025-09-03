@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soft_Credit_Total_Pre_2021__c</fullName>
+    <description>For eTapestry data upload use only
+Dependent was a constituent in eTapestry and had Soft Credits associated to them
+This is the total of those soft credits</description>
+    <inlineHelpText>For eTapestry data upload use only
+Dependent was a constituent in eTapestry and had Soft Credits associated to them
+This is the total of those soft credits</inlineHelpText>
+    <label>Soft Credit Total Pre 2021</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

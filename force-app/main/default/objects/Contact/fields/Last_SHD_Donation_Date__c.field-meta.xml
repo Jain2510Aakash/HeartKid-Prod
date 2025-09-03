@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_SHD_Donation_Date__c</fullName>
+    <description>Close Date of most recent Oppty associated to this Contact where Type = Sponsor Donation and Site = &apos;sweetheartday.org.au&apos;. 
+Populated by CRLP of same name</description>
+    <label>Last SHD Donation Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

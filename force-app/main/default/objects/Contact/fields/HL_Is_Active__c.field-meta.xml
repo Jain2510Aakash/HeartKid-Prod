@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HL_Is_Active__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is the group of people who have registered for our online community</description>
+    <inlineHelpText>This is the group of people who have registered for our online community</inlineHelpText>
+    <label>HL-Is Active</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

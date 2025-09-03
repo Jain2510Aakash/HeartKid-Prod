@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Syndrome__c</fullName>
+    <label>Syndrome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DiGeorge Syndrome</fullName>
+                <default>false</default>
+                <label>DiGeorge Syndrome</label>
+            </value>
+            <value>
+                <fullName>Eisenmenger Syndrome</fullName>
+                <default>false</default>
+                <label>Eisenmenger Syndrome</label>
+            </value>
+            <value>
+                <fullName>Long QT Syndrome</fullName>
+                <default>false</default>
+                <label>Long QT Syndrome</label>
+            </value>
+            <value>
+                <fullName>Wolff Parkinson White Syndrome</fullName>
+                <default>false</default>
+                <label>Wolff Parkinson White Syndrome</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

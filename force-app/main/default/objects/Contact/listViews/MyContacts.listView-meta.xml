@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyContacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>npe01__Home_Address__c</columns>
+    <columns>CHD_Directory_Record__c</columns>
+    <columns>CHD_Verification_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CHD_Directory_Record__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Contacts</label>
+</ListView>

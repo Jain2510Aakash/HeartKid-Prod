@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supporter_Type__c</fullName>
+    <description>This field is populated automatically via Process Builder action (Contact - Upon creation and update), based on the Opportunity Types being created and attached to this contact</description>
+    <label>Supporter Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Donor</fullName>
+                <default>false</default>
+                <label>Donor</label>
+            </value>
+            <value>
+                <fullName>Event Registrant</fullName>
+                <default>false</default>
+                <label>Event Registrant</label>
+            </value>
+            <value>
+                <fullName>Event Donor</fullName>
+                <default>false</default>
+                <label>Event Donor</label>
+            </value>
+            <value>
+                <fullName>Sponsor Donor</fullName>
+                <default>false</default>
+                <label>Sponsor Donor</label>
+            </value>
+            <value>
+                <fullName>Campaign Donor</fullName>
+                <default>false</default>
+                <label>Campaign Donor</label>
+            </value>
+            <value>
+                <fullName>In Memory Donor</fullName>
+                <default>false</default>
+                <label>In Memory Donor</label>
+            </value>
+            <value>
+                <fullName>Fundraiser</fullName>
+                <default>false</default>
+                <label>Fundraiser</label>
+            </value>
+            <value>
+                <fullName>Regular Donor</fullName>
+                <default>false</default>
+                <label>Regular Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

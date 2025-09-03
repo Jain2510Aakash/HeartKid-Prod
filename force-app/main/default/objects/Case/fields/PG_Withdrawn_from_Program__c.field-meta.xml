@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Withdrawn_from_Program__c</fullName>
+    <description>The family and child withdrew from the playgroup program because of the following reasons</description>
+    <inlineHelpText>The family and child withdrew from the playgroup program because of the following reasons</inlineHelpText>
+    <label>Withdrawn from Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardiac surgery</fullName>
+                <default>false</default>
+                <label>Cardiac surgery</label>
+            </value>
+            <value>
+                <fullName>Family decision</fullName>
+                <default>false</default>
+                <label>Family decision</label>
+            </value>
+            <value>
+                <fullName>Family moved</fullName>
+                <default>false</default>
+                <label>Family moved</label>
+            </value>
+            <value>
+                <fullName>Did not specify</fullName>
+                <default>false</default>
+                <label>Did not specify</label>
+            </value>
+            <value>
+                <fullName>Other (please specify)</fullName>
+                <default>false</default>
+                <label>Other (please specify)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

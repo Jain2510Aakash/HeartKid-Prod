@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Availability__c</fullName>
+    <label>Volunteer Availability</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Afternoon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Afternoon</label>
+            </value>
+            <value>
+                <fullName>AM Suits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AM Suits</label>
+            </value>
+            <value>
+                <fullName>Any time suits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Any time suits</label>
+            </value>
+            <value>
+                <fullName>Friday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Friday</label>
+            </value>
+            <value>
+                <fullName>Monday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monday</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Morning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Morning</label>
+            </value>
+            <value>
+                <fullName>Occasional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Occasional</label>
+            </value>
+            <value>
+                <fullName>Once a month</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Once a month</label>
+            </value>
+            <value>
+                <fullName>On Demand</fullName>
+                <default>false</default>
+                <label>On Demand</label>
+            </value>
+            <value>
+                <fullName>PM Suits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PM Suits</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Saturday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Saturday</label>
+            </value>
+            <value>
+                <fullName>Sunday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sunday</label>
+            </value>
+            <value>
+                <fullName>Throughout the month of February</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Throughout the month of February</label>
+            </value>
+            <value>
+                <fullName>Thursday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Thursday</label>
+            </value>
+            <value>
+                <fullName>Tuesday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tuesday</label>
+            </value>
+            <value>
+                <fullName>Twice a month</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Twice a month</label>
+            </value>
+            <value>
+                <fullName>Wednesday</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wednesday</label>
+            </value>
+            <value>
+                <fullName>Wednesday 14 February 2018</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wednesday 14 February 2018</label>
+            </value>
+            <value>
+                <fullName>Weekdays</fullName>
+                <default>false</default>
+                <label>Weekdays</label>
+            </value>
+            <value>
+                <fullName>Weekends</fullName>
+                <default>false</default>
+                <label>Weekends</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Weekly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

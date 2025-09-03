@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_SHD_Fundraising_Year__c</fullName>
+    <description>Uploaded manually via file from report https://heartkids.lightning.force.com/lightning/r/Report/00OOb000000CPM1MAO/view?queryScope=userFolders</description>
+    <externalId>false</externalId>
+    <label>Last SHD Fundraising Year</label>
+    <length>4</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

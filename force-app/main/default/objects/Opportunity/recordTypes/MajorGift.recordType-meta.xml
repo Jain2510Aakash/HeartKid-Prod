@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MajorGift</fullName>
+    <active>true</active>
+    <businessProcess>Major Gift</businessProcess>
+    <description>Large Donation from a Major Donor</description>
+    <label>Major Gift</label>
+    <picklistValues>
+        <picklist>Data_Source__c</picklist>
+        <values>
+            <fullName>Everyday Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JustGiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online gift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample Data</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donation_Sub_Type__c</picklist>
+        <values>
+            <fullName>Auction Item</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bequest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Match Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation - P2P group amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Memoriam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In kind goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In kind services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchandise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workplace Giving</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fund__c</picklist>
+        <values>
+            <fullName>General%2FUntied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gateway__c</picklist>
+        <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stripe</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_State__c</picklist>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Status__c</picklist>
+        <values>
+            <fullName>Acquitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Type__c</picklist>
+        <values>
+            <fullName>Community Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philanthropic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HeartKid_Programs__c</picklist>
+        <values>
+            <fullName>Capacity Building - equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacity Building - personnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Care bags</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classroom Inclusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Early Childhood Intervention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional and Rural Support Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teen Transition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web form - Volunteer Application</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legacy_Gift_Type__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit%2FDebit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic Funds Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recurring_Donation_Frequency__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortnightly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half-yearly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Auction Prize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffle Ticket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Member_Level__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Membership_Origin__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reacquire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+        <values>
+            <fullName>All Opportunities</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Opportunities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Acknowledgment_Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Acknowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Now</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Acknowledged</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Gift_Strategy__c</picklist>
+        <values>
+            <fullName>New Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Tribute_Notification_Status__c</picklist>
+        <values>
+            <fullName>Notified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Notified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Tribute_Type__c</picklist>
+        <values>
+            <fullName>Honor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

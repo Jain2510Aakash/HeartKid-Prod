@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Eligibility__c</fullName>
+    <label>Referral Eligibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heart Kid</fullName>
+                <default>false</default>
+                <label>Heart Kid</label>
+            </value>
+            <value>
+                <fullName>Heart Teen</fullName>
+                <default>false</default>
+                <label>Heart Teen</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Adult</fullName>
+                <default>false</default>
+                <label>Heart Kid Adult</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Spouse/Partner</fullName>
+                <default>false</default>
+                <label>Heart Kid Spouse/Partner</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Parent/Carer</fullName>
+                <default>false</default>
+                <label>Heart Kid Parent/Carer</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Sibling</fullName>
+                <default>false</default>
+                <label>Heart Kid Sibling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

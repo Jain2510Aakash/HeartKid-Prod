@@ -115,6 +115,7 @@
         <nameSegment>Campaign.New_Fundraising_Campaign_Creation_Alert_WA</nameSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Check_Page_Owner_State</name>
         <label>Check Page Owner State</label>

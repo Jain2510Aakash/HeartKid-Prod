@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseDate</fullName>
+    <description>This field has several options: it can be the expected date a grant is received, the actual date the income hits the account (ALL income including grants), or the date HeartKids expects to hear back about the grant.</description>
+    <inlineHelpText>This field has several options: it can be the expected date a grant is received, the actual date the income hits the account (ALL income including grants), or the date HeartKids expects to hear back about the grant.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

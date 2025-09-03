@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    npsp__Do_Not_Contact__c,
+    OR(
+        ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
+        ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c,
+        ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,
+        ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,
+        ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c,
+        ISCHANGED(Support_Updates__c) &amp;&amp; Support_Updates__c,
+        ISCHANGED(Support_Personal_1_1_Only__c) &amp;&amp; Support_Personal_1_1_Only__c,
+        ISCHANGED(Healthcare_Professional_Newsletter__c) &amp;&amp; Healthcare_Professional_Newsletter__c,
+        ISCHANGED(No_Newsletter__c) &amp;&amp; !No_Newsletter__c,
+        ISCHANGED(No_Telemarketing__c) &amp;&amp; !No_Telemarketing__c,
+        ISCHANGED(No_Solicitation__c) &amp;&amp; !No_Solicitation__c	
+
+    )
+)</errorConditionFormula>
+    <errorDisplayField>npsp__Do_Not_Contact__c</errorDisplayField>
+    <errorMessage>Pls uncheck Do not Contact to Check Marketing Emails,Marketing SMS, Donor Emails, Donor SMS, Donor phone Calls, Support Updates, Support Personal 1:1 Only,Healthcare Professional Newsletter.And Uncheck No Newsletter, No Fundraising Calls, No Solicitation.</errorMessage>
+</ValidationRule>

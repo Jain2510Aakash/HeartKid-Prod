@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personal_Connection_to_CHD__c</fullName>
+    <label>Personal Connection to CoHD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heart Angel</fullName>
+                <default>false</default>
+                <label>Heart Angel</label>
+            </value>
+            <value>
+                <fullName>Heart Angel Grandparent</fullName>
+                <default>false</default>
+                <label>Heart Angel Grandparent</label>
+            </value>
+            <value>
+                <fullName>Heart Angel Parent/Carer</fullName>
+                <default>false</default>
+                <label>Heart Angel Parent/Carer</label>
+            </value>
+            <value>
+                <fullName>Heart Angel Sibling</fullName>
+                <default>false</default>
+                <label>Heart Angel Sibling</label>
+            </value>
+            <value>
+                <fullName>Heart Kid</fullName>
+                <default>false</default>
+                <label>Heart Kid</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Adult</fullName>
+                <default>false</default>
+                <label>Heart Kid Adult</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Grandparent</fullName>
+                <default>false</default>
+                <label>Heart Kid Grandparent</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Parent/Carer</fullName>
+                <default>false</default>
+                <label>Heart Kid Parent/Carer</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Sibling</fullName>
+                <default>false</default>
+                <label>Heart Kid Sibling</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Extended Family</fullName>
+                <default>false</default>
+                <label>Heart Kid Extended Family</label>
+            </value>
+            <value>
+                <fullName>Heart Kid Bereaved Family Member</fullName>
+                <default>false</default>
+                <label>Heart Kid Bereaved Family Member</label>
+            </value>
+            <value>
+                <fullName>Community Member</fullName>
+                <default>false</default>
+                <label>Community Member</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

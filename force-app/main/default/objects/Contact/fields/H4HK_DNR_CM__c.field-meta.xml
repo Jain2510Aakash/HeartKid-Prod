@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>H4HK_DNR_CM__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Not on page layout, will be ticked by PB the first time a Contact is associated to the H4HK DNR Campaign to avoid Oppty Upon Create PB erroring when Contact donates multiple times</description>
+    <label>H4HK DNR CM</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ortto__Object_Related_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field associated with object</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Object Related Field</label>
+    <metadataRelationshipControllingField>ortto__Ortto_Activity__mdt.ortto__Object__c</metadataRelationshipControllingField>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipLabel>Salesforce_Objects</relationshipLabel>
+    <relationshipName>Salesforce_Objects</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

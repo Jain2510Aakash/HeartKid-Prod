@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Working_With_Children_or_equivalent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Includes NSW – WWCC (working with Children Check)
+ACT – working with Vulnerable people clearance 
+QLD – Blue card
+VIC – WWCC 
+SA – WWCC 
+WA - WWCC
+NT – Ochre Card or WWCC</description>
+    <inlineHelpText>Includes 
+NSW – WWCC (working with Children Check)
+ACT – working with Vulnerable people clearance 
+QLD – Blue card
+VIC – WWCC 
+SA – WWCC 
+WA - WWCC
+NT – Ochre Card or WWCC</inlineHelpText>
+    <label>Working With Children (or equivalent)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

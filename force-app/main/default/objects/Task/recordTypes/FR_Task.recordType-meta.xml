@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FR_Task</fullName>
+    <active>true</active>
+    <label>FR Task</label>
+    <picklistValues>
+        <picklist>Assessemnt_Number__c</picklist>
+        <values>
+            <fullName>1st</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4th</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Referral__c</picklist>
+        <values>
+            <fullName>Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiology Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education%2FTraining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Equipment Hire%2FPurchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peer Support Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel %26 Insurance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial_Assistance__c</picklist>
+        <values>
+            <fullName>HeartKids Accommodation Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeartKids Financial Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeartKids Funeral Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeartKids Grocery Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeartKids Hospital Meal Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeartKids Meals%2FFood Hamper</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hospital_Location__c</picklist>
+        <values>
+            <fullName>ACT - Canberra Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACT - Centenary Hospital %E2%80%93 Canberra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW - Children%27s Hospital Westmead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW - John Hunter Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW - Royal Prince Alfred Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW - Sydney Children%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW - Westmead Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT - Alice Springs Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT - Royal Darwin Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Mater Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Prince Charles Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Queensland Children%E2%80%99s Hospital %28QCH%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Rockhampton Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Royal Women%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD - Townsville Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Port Augusta Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Women%27s and Children%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS - Launceston Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS - Royal Hobart Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC - Monash Children%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC - Royal Children%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC - Royal Melbourne Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC - Royal Women%27s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC - The Alfred Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - King Edward Memorial Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Perth Children%E2%80%99s Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Royal Perth Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Sir Charles Gardener</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>In_Kind_Assistance__c</picklist>
+        <values>
+            <fullName>In-Kind Gifts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Kind Grocery%2FFuel Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Kind Meal Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Kind Medical Equipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Incoming_Referral__c</picklist>
+        <values>
+            <fullName>Cardiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other organisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ward staff %28Clerk or Nurse%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Method_of_Contact__c</picklist>
+        <values>
+            <fullName>Face to face</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webform</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Cognitive_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Communication_Interpretation__c</picklist>
+        <values>
+            <fullName>Above cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close to cut off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Fine_Motor_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Fine_Motor_Interpretation__c</picklist>
+        <values>
+            <fullName>Above cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close to cut off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Gross_Motor_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Gross_Motor_Interpretation__c</picklist>
+        <values>
+            <fullName>Above cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close to cut off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Language_Expressive_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Language_Receptive_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Personal_Social_Interpretation__c</picklist>
+        <values>
+            <fullName>Above cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close to cut off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Problem_Solving_Interpretation__c</picklist>
+        <values>
+            <fullName>Above cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below cut off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close to cut off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Regulatory_Sensory_Organisation_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Self_Help_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PG_Social_Emotional_HELP__c</picklist>
+        <values>
+            <fullName>Age Appropriate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Playgroup_Session_Attended__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Playgroup_Session_Non_Attendance_Reason__c</picklist>
+        <values>
+            <fullName>Child unwell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Did not specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family commitments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact seized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on someone else</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Occasion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Coordinator_Name__c</picklist>
+        <values>
+            <fullName>Adam Klimkiewicz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alex Savage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ali Bell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amy Heafield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Hyde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angela Jones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anne Ziegeler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brenna Chia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cecilia Donovan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donna Hammond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fereshteh Bekker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Helen West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jaclyn Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jenny Azzopardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jessica Pirrone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leah Stevenson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libby Posadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linda Clark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lisa Yalda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lynette McCoullough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maree Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melissa McCormack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nadia Tolhurst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natasha D%E2%80%99Souza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nicole Carter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petrina Brown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebecca Dean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebecca Peters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Coordinators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renee Friedman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sherrie McDonald</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shiralee Cox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone Vollbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tania Kelsey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracy Stanley</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Given__c</picklist>
+        <values>
+            <fullName>Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Care Bag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-Up Phone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heartbeads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informal Catch-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interstate Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intra Hospital Transition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrastate Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palliative Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent%2FCarer Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Outpatient Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teen Transition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary Outpatient Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsuccessful Phone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Phone Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Setting__c</picklist>
+        <values>
+            <fullName>Webform</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Spent__c</picklist>
+        <values>
+            <fullName>0%2E25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E75</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E75</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E75</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E00</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR Task</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>General Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

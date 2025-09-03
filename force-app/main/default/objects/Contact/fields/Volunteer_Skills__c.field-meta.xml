@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Skills__c</fullName>
+    <label>Volunteer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Office/Admin</fullName>
+                <default>false</default>
+                <label>Office/Admin</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Donation Collection</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Donation Collection</label>
+            </value>
+            <value>
+                <fullName>Event Set-Up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Event Set-Up</label>
+            </value>
+            <value>
+                <fullName>Fundraising</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fundraising</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Gift Wrapping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gift Wrapping</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Raffle Ticket Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Raffle Ticket Sales</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

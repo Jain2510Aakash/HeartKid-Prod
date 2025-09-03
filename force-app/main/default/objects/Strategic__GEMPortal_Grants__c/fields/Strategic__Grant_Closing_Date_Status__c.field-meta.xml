@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic__Grant_Closing_Date_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Closing Date Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TBC</fullName>
+                <default>false</default>
+                <label>TBC</label>
+            </value>
+            <value>
+                <fullName>Anytime</fullName>
+                <default>false</default>
+                <label>Anytime</label>
+            </value>
+            <value>
+                <fullName>By Invitation</fullName>
+                <default>false</default>
+                <label>By Invitation</label>
+            </value>
+            <value>
+                <fullName>TBC;EOI/Enquiry</fullName>
+                <default>false</default>
+                <label>TBC;EOI/Enquiry</label>
+            </value>
+            <value>
+                <fullName>EOI/Enquiry</fullName>
+                <default>false</default>
+                <label>EOI/Enquiry</label>
+            </value>
+            <value>
+                <fullName>TBC;Shortlisted Full Application</fullName>
+                <default>false</default>
+                <label>TBC;Shortlisted Full Application</label>
+            </value>
+            <value>
+                <fullName>Shortlisted Full Application</fullName>
+                <default>false</default>
+                <label>Shortlisted Full Application</label>
+            </value>
+            <value>
+                <fullName>EOI Anytime</fullName>
+                <default>false</default>
+                <label>EOI Anytime</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

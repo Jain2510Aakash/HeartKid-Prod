@@ -1,0 +1,12 @@
+Hi
+
+A fundraising page has been created for your state(s)
+
+Name: {!Campaign.Name}
+Fundraiser: {!Campaign.Page_Owner__c}
+Start Date: {!Campaign.StartDate}
+Link to Campaign record: {!Campaign.Link}
+
+Please complete Tasks in Engagement Pan
+
+*This is an automated email, please do not respond directly to this email. Email Rachael Stecher directly should you have any questions*

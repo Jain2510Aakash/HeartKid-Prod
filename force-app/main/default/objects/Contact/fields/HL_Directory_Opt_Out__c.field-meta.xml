@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HL_Directory_Opt_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Higher Logic Community Group field</description>
+    <inlineHelpText>Higher Logic Community Group field</inlineHelpText>
+    <label>HL Directory Opt Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

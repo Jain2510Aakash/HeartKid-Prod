@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_Assignment_Rule_Queues_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Tara &amp; Liam</label>
+    <queue>Lead_Source_Assignment_Rule_Queues</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

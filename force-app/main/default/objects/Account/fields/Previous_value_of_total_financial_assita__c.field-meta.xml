@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_value_of_total_financial_assita__c</fullName>
+    <description>this is helping with the roll up of the value on the account</description>
+    <inlineHelpText>this is helping with the roll up of the value on the account</inlineHelpText>
+    <label>Previous value of total financial assita</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_Call_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    DoNotCall,
+    OR(
+        ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>DoNotCall</errorDisplayField>
+    <errorMessage>Pls uncheck Do not Call to Check Donor Phone Call</errorMessage>
+</ValidationRule>

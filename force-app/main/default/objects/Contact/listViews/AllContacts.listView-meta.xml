@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>ACCOUNT.ACCOUNT_ID</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Age__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Giving_Status__c</columns>
+    <columns>npo02__LastCloseDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Personal_Connection_to_CHD__c</field>
+        <operation>equals</operation>
+        <value>Heart Kid Parent/Carer</value>
+    </filters>
+    <filters>
+        <field>Council__c</field>
+        <operation>equals</operation>
+        <value>Townsville City Council</value>
+    </filters>
+    <label>All Contacts</label>
+</ListView>

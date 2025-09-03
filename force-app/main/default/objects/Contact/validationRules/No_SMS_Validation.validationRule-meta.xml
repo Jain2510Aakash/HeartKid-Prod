@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_SMS_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    No_SMS__c,
+    OR(
+        ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,
+        ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>No_SMS__c</errorDisplayField>
+    <errorMessage>Pls uncheck No SMS to Check Marketing SMS, Donor SMS</errorMessage>
+</ValidationRule>

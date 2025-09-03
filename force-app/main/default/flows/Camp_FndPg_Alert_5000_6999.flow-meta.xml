@@ -115,6 +115,7 @@
         <nameSegment>Campaign.Fund_Pg_Campaign_Amount_Alert_WA</nameSegment>
     </actionCalls>
     <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Fund_Page_Owner_State</name>
         <label>Fund Page Owner State</label>

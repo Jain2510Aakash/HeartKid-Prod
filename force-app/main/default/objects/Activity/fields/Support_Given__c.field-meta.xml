@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Given__c</fullName>
+    <label>Support Given</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Support_Given</valueSetName>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

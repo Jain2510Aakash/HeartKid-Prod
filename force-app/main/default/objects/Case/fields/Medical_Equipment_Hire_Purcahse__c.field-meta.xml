@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medical_Equipment_Hire_Purcahse__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checklist item for external referral</description>
+    <inlineHelpText>Checklist item for external referral</inlineHelpText>
+    <label>Medical Equipment Loan Agreement signed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

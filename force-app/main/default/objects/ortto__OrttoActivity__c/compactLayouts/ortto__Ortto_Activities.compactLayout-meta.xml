@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ortto__Ortto_Activities</fullName>
+    <fields>Name</fields>
+    <fields>ortto__InstanceID__c</fields>
+    <fields>ortto__Contact__c</fields>
+    <fields>ortto__Lead__c</fields>
+    <fields>ortto__CreatedAt__c</fields>
+    <label>Ortto Activities</label>
+</CompactLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_VIC_TAS_Professional_Connection</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Professional_Connection_to_CHD__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>npe01__Organization_Type__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS1_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Professional_Connection_to_CHD__c</field>
+        <operation>equals</operation>
+        <value>Ambassador,Corporate Partner/Contact,Former HKL Board Member,Health Professional,HKL Board Member,HKL Staff,Hospital Administration,Hospital PR,Media Contact,Patron,Researcher,School Teacher/Educator,Stakeholder,Supplier</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>SA</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>NT</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>South Australia</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>Northern Territory</value>
+    </filters>
+    <label>SA/NT Professional Connection</label>
+</ListView>

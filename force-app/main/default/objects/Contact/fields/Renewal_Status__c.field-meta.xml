@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Status__c</fullName>
+    <label>Renewal Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Gift</fullName>
+                <default>false</default>
+                <label>First Gift</label>
+            </value>
+            <value>
+                <fullName>Renewed Increased</fullName>
+                <default>false</default>
+                <label>Renewed Increased</label>
+            </value>
+            <value>
+                <fullName>Renewed Same</fullName>
+                <default>false</default>
+                <label>Renewed Same</label>
+            </value>
+            <value>
+                <fullName>Renewed Decreased</fullName>
+                <default>false</default>
+                <label>Renewed Decreased</label>
+            </value>
+            <value>
+                <fullName>Reactivated Increased</fullName>
+                <default>false</default>
+                <label>Reactivated Increased</label>
+            </value>
+            <value>
+                <fullName>Reactivated Same</fullName>
+                <default>false</default>
+                <label>Reactivated Same</label>
+            </value>
+            <value>
+                <fullName>Reactivated Decreased</fullName>
+                <default>false</default>
+                <label>Reactivated Decreased</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Playgroup_Session_Non_Attendance_Reason__c</fullName>
+    <description>This is the reason the child and family did not attend the playgroup session</description>
+    <inlineHelpText>This is the reason the child and family did not attend the playgroup session</inlineHelpText>
+    <label>Playgroup Session Non Attendance Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Playgroup_Session_Non_Attendance_Reason</valueSetName>
+    </valueSet>
+</CustomField>

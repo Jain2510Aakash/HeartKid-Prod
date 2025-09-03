@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_In_Kind_Assistance_Provided_CFY__c</fullName>
+    <description>Populated by Flow &apos;Case Total Assistance provided Calculation&apos;.</description>
+    <inlineHelpText>Total In Kind Assistance Provided from Cases associated to all Household Contacts, where Due Date is Current Financial Yr</inlineHelpText>
+    <label>Total In Kind Assistance Provided CFY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

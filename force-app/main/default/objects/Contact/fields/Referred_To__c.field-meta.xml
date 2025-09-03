@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referred_To__c</fullName>
+    <label>Referred To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Referred to Mental Health</fullName>
+                <default>false</default>
+                <label>Referred to Mental Health</label>
+            </value>
+            <value>
+                <fullName>Referred to Peer Support</fullName>
+                <default>false</default>
+                <label>Referred to Peer Support</label>
+            </value>
+            <value>
+                <fullName>Send to J&amp;R</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Send to J&amp;R</label>
+            </value>
+            <value>
+                <fullName>Send to Michelle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Send to Michelle</label>
+            </value>
+            <value>
+                <fullName>Send to peer support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Send to peer support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

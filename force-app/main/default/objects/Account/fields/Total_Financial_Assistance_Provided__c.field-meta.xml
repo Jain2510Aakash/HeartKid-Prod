@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Financial_Assistance_Provided__c</fullName>
+    <description>This is the total life time financial assistance provided to a family</description>
+    <inlineHelpText>This is the total life time financial assistance provided to a family</inlineHelpText>
+    <label>Total Financial Assistance Provided</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

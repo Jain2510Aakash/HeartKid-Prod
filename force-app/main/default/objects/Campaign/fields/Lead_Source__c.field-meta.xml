@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source__c</fullName>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Raisely</fullName>
+                <default>false</default>
+                <label>Raisely</label>
+            </value>
+            <value>
+                <fullName>Grassrootz</fullName>
+                <default>false</default>
+                <label>Grassrootz</label>
+            </value>
+            <value>
+                <fullName>PayPal Giving Fund</fullName>
+                <default>false</default>
+                <label>PayPal Giving Fund</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

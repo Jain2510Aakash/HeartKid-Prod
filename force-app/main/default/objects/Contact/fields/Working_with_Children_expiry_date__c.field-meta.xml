@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Working_with_Children_expiry_date__c</fullName>
+    <description>Working with Children or equivalent card expiry date</description>
+    <inlineHelpText>Working with Children or equivalent card expiry date</inlineHelpText>
+    <label>Working with Children expiry date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

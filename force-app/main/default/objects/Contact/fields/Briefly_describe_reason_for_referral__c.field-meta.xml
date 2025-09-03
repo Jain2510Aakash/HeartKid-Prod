@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Briefly_describe_reason_for_referral__c</fullName>
+    <label>Briefly describe reason for referral</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Counselling</fullName>
+                <default>false</default>
+                <label>Counselling</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Bereavement</fullName>
+                <default>false</default>
+                <label>Bereavement</label>
+            </value>
+            <value>
+                <fullName>Anxiety</fullName>
+                <default>false</default>
+                <label>Anxiety</label>
+            </value>
+            <value>
+                <fullName>Depression</fullName>
+                <default>false</default>
+                <label>Depression</label>
+            </value>
+            <value>
+                <fullName>Crisis Intervention</fullName>
+                <default>false</default>
+                <label>Crisis Intervention</label>
+            </value>
+            <value>
+                <fullName>Education/Employment</fullName>
+                <default>false</default>
+                <label>Education/Employment</label>
+            </value>
+            <value>
+                <fullName>Coping Strategies</fullName>
+                <default>false</default>
+                <label>Coping Strategies</label>
+            </value>
+            <value>
+                <fullName>Triage for JnR</fullName>
+                <default>false</default>
+                <label>Triage for JnR</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Fear management</fullName>
+                <default>false</default>
+                <label>Fear management</label>
+            </value>
+            <value>
+                <fullName>Pregnancy/TTC</fullName>
+                <default>false</default>
+                <label>Pregnancy/TTC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

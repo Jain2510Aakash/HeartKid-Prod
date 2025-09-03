@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_is_This_FY__c</fullName>
+    <formula>IF (
+OR(
+AND(
+MONTH(TODAY()) &gt;= 7,
+ActivityDate &gt;= DATE(YEAR(TODAY()),07,01),
+ActivityDate &lt;= DATE(YEAR(ADDMONTHS(TODAY(),+12)),06,30)
+),
+AND(
+MONTH(TODAY()) &lt;= 6,
+ActivityDate &gt;= DATE(YEAR(ADDMONTHS(TODAY(),-12)) ,07,01),
+ActivityDate &lt;= DATE(YEAR(TODAY()),06,30)
+)
+), true, false
+)</formula>
+    <label>Due Date is This FY</label>
+    <type>Checkbox</type>
+</CustomField>

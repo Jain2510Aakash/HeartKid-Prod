@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Email_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    HasOptedOutOfEmail,
+    OR(
+        ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
+        ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,
+        ISCHANGED(Support_Updates__c) &amp;&amp; Support_Updates__c
+    )
+)</errorConditionFormula>
+    <errorMessage>Pls uncheck No Emails to Check Marketing Email, Donor Email and Support Update.</errorMessage>
+</ValidationRule>

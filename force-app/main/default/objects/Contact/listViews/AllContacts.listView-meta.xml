@@ -15,12 +15,17 @@
     <filters>
         <field>Personal_Connection_to_CHD__c</field>
         <operation>equals</operation>
-        <value>Heart Kid Parent/Carer</value>
+        <value>Heart Kid</value>
+    </filters>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>QLD</value>
     </filters>
     <filters>
         <field>Council__c</field>
         <operation>equals</operation>
-        <value>Townsville City Council</value>
+        <value>South Burnett Regional Council</value>
     </filters>
     <label>All Contacts</label>
 </ListView>

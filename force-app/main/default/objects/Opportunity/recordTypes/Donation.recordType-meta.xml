@@ -529,6 +529,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Event Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Event Registration</fullName>
             <default>false</default>
         </values>

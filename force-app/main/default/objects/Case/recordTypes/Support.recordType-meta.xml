@@ -60,6 +60,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Feel The Magic</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Heart Support Australia</fullName>
             <default>false</default>
         </values>
@@ -73,10 +77,6 @@
         </values>
         <values>
             <fullName>Medical Equipment Hire%2FPurchase</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Meet Magic</fullName>
             <default>false</default>
         </values>
         <values>
@@ -354,6 +354,10 @@
         <picklist>Hospital_Location__c</picklist>
         <values>
             <fullName>ACT - Canberra Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Community</fullName>
             <default>false</default>
         </values>
         <values>

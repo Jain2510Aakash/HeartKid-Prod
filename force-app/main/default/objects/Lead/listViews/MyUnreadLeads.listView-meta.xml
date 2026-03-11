@@ -12,14 +12,9 @@
     <columns>LEAD.UNREAD</columns>
     <filterScope>Mine</filterScope>
     <filters>
-        <field>LEAD.UNREAD</field>
+        <field>CORE.USERS.FIRST_NAME</field>
         <operation>equals</operation>
-        <value>1</value>
-    </filters>
-    <filters>
-        <field>External_System_Link__c</field>
-        <operation>equals</operation>
-        <value>olark</value>
+        <value>Becky</value>
     </filters>
     <label>My Unread Leads</label>
 </ListView>

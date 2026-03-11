@@ -5,27 +5,27 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Exceptions For PRM Override</shortDescription>
-        <value>marcus.sandmann@heartkids.org.au.girikonpar,jessica.keating@heartkids.org.au.girikonpar,rachstecher@heartkids.org.au.girikonpar</value>
+        <value>sami.glastonbury@heartkids.org.au,rachstecher@heartkids.org.au,marcus.sandmann@heartkids.org.au,jessica.keating@heartkids.org.au,liam.maguire@heartkids.org.au,tania.potts@heartkids.org.au</value>
     </labels>
     <labels>
         <fullName>Mental_Health_Program_Follow_Up_Task_Owner</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Mental Health Program Follow-Up Task Owner</shortDescription>
-        <value>hk-saurabh.verma@girikon.com.girikonpar</value>
+        <value>bonnie.tomlin@heartkids.org.au</value>
     </labels>
     <labels>
         <fullName>Org_Base_Url</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Org Base Url</shortDescription>
-        <value>https://heartkids--girikonpar.sandbox.lightning.force.com</value>
+        <value>https://heartkids.lightning.force.com</value>
     </labels>
     <labels>
         <fullName>Referral_Recipients_Email_Addresses</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Referral Recipients Email Addresses</shortDescription>
-        <value>sharjeel.bashshar@girikon.com,prashant.bisht@girikon.com</value>
+        <value>mhw@heartkids.org.au</value>
     </labels>
 </CustomLabels>

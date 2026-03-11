@@ -13,7 +13,7 @@
     <filterScope>Mine</filterScope>
     <filters>
         <field>IS_CLOSED</field>
-        <operation>equals</operation>
+        <operation>notEqual</operation>
         <value>0</value>
     </filters>
     <filters>
@@ -26,5 +26,5 @@
         <operation>equals</operation>
         <value>TODAY,LAST_N_DAYS:30</value>
     </filters>
-    <label>ENCODED:{!FilterNames.z_TodaysTasks}</label>
+    <label>Today&apos;s Tasks</label>
 </ListView>

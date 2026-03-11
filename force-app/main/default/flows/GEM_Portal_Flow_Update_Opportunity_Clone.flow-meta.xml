@@ -378,7 +378,6 @@
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
-    <sourceTemplate>Strategic__GEM_Portal_Flow_Update_Opportunity</sourceTemplate>
     <start>
         <locationX>56</locationX>
         <locationY>0</locationY>

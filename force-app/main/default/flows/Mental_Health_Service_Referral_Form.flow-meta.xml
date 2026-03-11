@@ -653,7 +653,7 @@
             <field>Username</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>michelle.chee@heartkids.org.au.girikonpar</stringValue>
+                <stringValue>michelle.chee@heartkids.org.au</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -674,7 +674,7 @@
             <field>Username</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>bonnie.tomlin@heartkids.org.au.girikonpar</stringValue>
+                <stringValue>bonnie.tomlin@heartkids.org.au</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>

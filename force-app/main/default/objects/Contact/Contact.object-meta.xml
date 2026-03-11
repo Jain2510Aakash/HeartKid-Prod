@@ -272,15 +272,15 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Contact_Record_PageV1</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
         <content>Contact_Record_PageV1</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -339,6 +339,7 @@
         <fields>ACCOUNT.NAME</fields>
         <fields>Salesforce_Contact_ID__c</fields>
         <fields>CONTACT.PHONE1</fields>
+        <fields>CONTACT.PHONE3</fields>
         <fields>CONTACT.EMAIL</fields>
         <fields>CONTACT.ADDRESS2_STREET</fields>
         <fields>CONTACT.ADDRESS2_CITY</fields>
@@ -375,14 +376,14 @@
         <massQuickActions>Update_Professional_Connection_to_HK</massQuickActions>
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>eTapesty_Constituent_Account_Number__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Salesforce_Contact_ID__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE3</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.BIRTHDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.ADDRESS2_STREET</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.ADDRESS2_CITY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.ADDRESS2_STATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_ZIP</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Personal_Connection_to_CHD__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Professional_Connection_to_CHD__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

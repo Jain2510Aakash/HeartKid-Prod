@@ -11,9 +11,44 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Alagille Syndrome</fullName>
+                <default>false</default>
+                <label>Alagille Syndrome</label>
+            </value>
+            <value>
+                <fullName>Brugada Syndrome</fullName>
+                <default>false</default>
+                <label>Brugada Syndrome</label>
+            </value>
+            <value>
+                <fullName>CHARGE Syndrome</fullName>
+                <default>false</default>
+                <label>CHARGE Syndrome</label>
+            </value>
+            <value>
+                <fullName>Cornelia de Lange Syndrome</fullName>
+                <default>false</default>
+                <label>Cornelia de Lange Syndrome</label>
+            </value>
+            <value>
                 <fullName>DiGeorge Syndrome</fullName>
                 <default>false</default>
                 <label>DiGeorge Syndrome</label>
+            </value>
+            <value>
+                <fullName>Down Syndrome (Trisomy 21)</fullName>
+                <default>false</default>
+                <label>Down Syndrome (Trisomy 21)</label>
+            </value>
+            <value>
+                <fullName>Edwards Syndrome (Trisomy 18)</fullName>
+                <default>false</default>
+                <label>Edwards Syndrome (Trisomy 18)</label>
+            </value>
+            <value>
+                <fullName>Ehlers Danlos Syndrome</fullName>
+                <default>false</default>
+                <label>Ehlers Danlos Syndrome</label>
             </value>
             <value>
                 <fullName>Eisenmenger Syndrome</fullName>
@@ -21,9 +56,54 @@
                 <label>Eisenmenger Syndrome</label>
             </value>
             <value>
+                <fullName>Kabuki Syndrome</fullName>
+                <default>false</default>
+                <label>Kabuki Syndrome</label>
+            </value>
+            <value>
                 <fullName>Long QT Syndrome</fullName>
                 <default>false</default>
                 <label>Long QT Syndrome</label>
+            </value>
+            <value>
+                <fullName>Marfan Syndrome</fullName>
+                <default>false</default>
+                <label>Marfan Syndrome</label>
+            </value>
+            <value>
+                <fullName>Noonan Syndrome</fullName>
+                <default>false</default>
+                <label>Noonan Syndrome</label>
+            </value>
+            <value>
+                <fullName>Postural Orthostatic Tachycardia Syndrome (POTS)</fullName>
+                <default>false</default>
+                <label>Postural Orthostatic Tachycardia Syndrome (POTS)</label>
+            </value>
+            <value>
+                <fullName>Prader Willi Syndrome</fullName>
+                <default>false</default>
+                <label>Prader Willi Syndrome</label>
+            </value>
+            <value>
+                <fullName>Situs Inversus</fullName>
+                <default>false</default>
+                <label>Situs Inversus</label>
+            </value>
+            <value>
+                <fullName>Turner Syndrome</fullName>
+                <default>false</default>
+                <label>Turner Syndrome</label>
+            </value>
+            <value>
+                <fullName>VACTERL Association (VATER Syndrome)</fullName>
+                <default>false</default>
+                <label>VACTERL Association (VATER Syndrome)</label>
+            </value>
+            <value>
+                <fullName>Williams Syndrome</fullName>
+                <default>false</default>
+                <label>Williams Syndrome</label>
             </value>
             <value>
                 <fullName>Wolff Parkinson White Syndrome</fullName>

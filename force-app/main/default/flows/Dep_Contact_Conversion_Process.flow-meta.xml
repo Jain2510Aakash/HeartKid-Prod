@@ -245,7 +245,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <waits>
         <description>Designed to ensure URL has been created and mapped to Dependent before email template is accessed at next step</description>
         <name>Pause_5_minutes</name>

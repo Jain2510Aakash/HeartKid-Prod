@@ -22,10 +22,5 @@
         <operation>equals</operation>
         <value>Campaign.Default</value>
     </filters>
-    <filters>
-        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
-        <operation>equals</operation>
-        <value>Fundraising Page</value>
-    </filters>
     <label>All Active Campaigns</label>
 </ListView>

@@ -10,7 +10,7 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>LAST_UPDATE</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>IS_CLOSED</field>
         <operation>equals</operation>
@@ -26,5 +26,5 @@
         <operation>lessThan</operation>
         <value>TODAY</value>
     </filters>
-    <label>ENCODED:{!FilterNames.Task_OverdueTasks}</label>
+    <label>Overdue Tasks</label>
 </ListView>

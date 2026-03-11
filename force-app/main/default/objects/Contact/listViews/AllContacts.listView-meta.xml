@@ -2,17 +2,29 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AllContacts</fullName>
     <columns>FULL_NAME</columns>
-    <columns>ACCOUNT.NAME</columns>
-    <columns>CORE.USERS.ALIAS</columns>
-    <columns>Primary_Relationship_Manager__c</columns>
-    <columns>Primary_Support_Relationship_Manager__c</columns>
-    <columns>CONTACT.CREATED_DATE</columns>
-    <columns>ACCOUNT.ACCOUNT_ID</columns>
-    <columns>ACCOUNT.RECORDTYPE</columns>
-    <columns>Age__c</columns>
     <columns>CONTACT.EMAIL</columns>
-    <columns>Giving_Status__c</columns>
-    <columns>npo02__LastCloseDate__c</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>Personal_Connection_to_CHD__c</columns>
+    <columns>Child_1_First_Name__c</columns>
+    <columns>Child_1_Gender__c</columns>
+    <columns>Child_1_Age__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>QLD</value>
+    </filters>
+    <filters>
+        <field>Personal_Connection_to_CHD__c</field>
+        <operation>equals</operation>
+        <value>Heart Kid Parent/Carer</value>
+    </filters>
+    <filters>
+        <field>Child_1_Age__c</field>
+        <operation>equals</operation>
+        <value>3,4,5,6,7,8,9,10</value>
+    </filters>
     <label>All Contacts</label>
 </ListView>

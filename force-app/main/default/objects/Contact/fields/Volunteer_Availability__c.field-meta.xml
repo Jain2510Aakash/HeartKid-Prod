@@ -53,6 +53,12 @@
                 <label>Morning</label>
             </value>
             <value>
+                <fullName>Occasional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Occasional</label>
+            </value>
+            <value>
                 <fullName>Once a month</fullName>
                 <default>false</default>
                 <isActive>false</isActive>

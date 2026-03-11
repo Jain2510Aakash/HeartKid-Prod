@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_NSW_ACT</fullName>
+        <description>Org Account Ownership Assignment_NSW_ACT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rachstecher@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_No_State</fullName>
+        <description>Org Account Ownership Assignment_No State</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>janelle.sugden@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rebecca.cannell@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_QLD</fullName>
+        <description>Org Account Ownership Assignment_QLD</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>janelle.sugden@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rebecca.cannell@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_SA_NT</fullName>
+        <description>Org Account Ownership Assignment_SA_NT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>janelle.sugden@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rebecca.cannell@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_VIC_TAS</fullName>
+        <description>Org Account Ownership Assignment_VIC_TAS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>chloe.manolitsas@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>janelle.sugden@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rebecca.cannell@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Org_Account_Ownership_Assignment_WA</fullName>
+        <description>Org Account Ownership Assignment_WA</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>shelley.ure@heartkids.org.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Org_Acct_Owner_Assignment_Email_Template</template>
+    </alerts>
+    <rules>
+        <fullName>zaapit__Call  - Account %28Exmaple by ZaapIT%29</fullName>
+        <active>false</active>
+        <description>Call Account - by ZaapIT</description>
+        <formula>false</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>zaapit__Call %28Exmaple by ZaapIT%29</fullName>
+        <active>false</active>
+        <description>Call Account Example by ZaapIT (don&apos;t activated - an example)</description>
+        <formula>false</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>zaapit__Email - Account %28Exmaple by ZaapIT%29</fullName>
+        <actions>
+            <name>zaapit__Email</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>Email Account - by ZaapIT</description>
+        <formula>false</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>zaapit__Send Letter  - Account %28Exmaple by ZaapIT%29</fullName>
+        <actions>
+            <name>zaapit__SendLetterAccount</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>Send Letter Account - by ZaapIT</description>
+        <formula>false</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>zaapit__Send Quote - Account %28Exmaple by ZaapIT%29</fullName>
+        <actions>
+            <name>zaapit__SendQuoteAccount</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>Send Quote Account - by ZaapIT</description>
+        <formula>false</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>zaapit__Call</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Call</subject>
+    </tasks>
+    <tasks>
+        <fullName>zaapit__Email</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Email</subject>
+    </tasks>
+    <tasks>
+        <fullName>zaapit__SendLetterAccount</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Send Letter</subject>
+    </tasks>
+    <tasks>
+        <fullName>zaapit__SendQuoteAccount</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Send Quote</subject>
+    </tasks>
+</Workflow>

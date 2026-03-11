@@ -4,6 +4,7 @@
     <active>true</active>
     <errorConditionFormula>AND(
     DoNotCall,
+    NOT($Permission.ByPass_Validation),
     OR(
         ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c
     )

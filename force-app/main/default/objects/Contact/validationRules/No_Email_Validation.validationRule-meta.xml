@@ -3,7 +3,8 @@
     <fullName>No_Email_Validation</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-    HasOptedOutOfEmail,
+    HasOptedOutOfEmail,    NOT($Permission.ByPass_Validation),
+
     OR(
         ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
         ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,

@@ -8,6 +8,11 @@
     <columns>CASES.PRIORITY</columns>
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Support</value>
+    </filters>
     <label>All Open Cases</label>
 </ListView>

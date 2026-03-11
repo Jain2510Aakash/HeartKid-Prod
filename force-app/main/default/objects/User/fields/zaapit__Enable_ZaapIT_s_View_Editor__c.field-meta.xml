@@ -7,5 +7,6 @@
     <inlineHelpText>Enable ZaapIT&apos;s View Editor for none admin users (don&apos;t mark with enable layout editor for the same user)</inlineHelpText>
     <label>Enable ZaapIT&apos;s View Editor</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

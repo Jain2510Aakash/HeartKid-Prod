@@ -4,6 +4,8 @@
     <columns>FULL_NAME</columns>
     <columns>ACCOUNT.NAME</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>Primary_Relationship_Manager__c</columns>
+    <columns>Primary_Support_Relationship_Manager__c</columns>
     <columns>CONTACT.CREATED_DATE</columns>
     <columns>ACCOUNT.ACCOUNT_ID</columns>
     <columns>ACCOUNT.RECORDTYPE</columns>
@@ -12,20 +14,5 @@
     <columns>Giving_Status__c</columns>
     <columns>npo02__LastCloseDate__c</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>Personal_Connection_to_CHD__c</field>
-        <operation>equals</operation>
-        <value>Heart Kid</value>
-    </filters>
-    <filters>
-        <field>State__c</field>
-        <operation>equals</operation>
-        <value>QLD</value>
-    </filters>
-    <filters>
-        <field>Council__c</field>
-        <operation>equals</operation>
-        <value>South Burnett Regional Council</value>
-    </filters>
     <label>All Contacts</label>
 </ListView>

@@ -4,6 +4,6 @@
     <defaultValue>false</defaultValue>
     <label>HK can use my info to support me/us</label>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

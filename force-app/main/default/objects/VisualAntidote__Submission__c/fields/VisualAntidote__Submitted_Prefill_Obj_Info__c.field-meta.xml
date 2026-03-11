@@ -3,7 +3,7 @@
     <fullName>VisualAntidote__Submitted_Prefill_Obj_Info__c</fullName>
     <deprecated>false</deprecated>
     <label>Submitted Prefill Obj Info</label>
-    <length>2000</length>
+    <length>131072</length>
     <trackTrending>false</trackTrending>
     <type>LongTextArea</type>
     <visibleLines>3</visibleLines>

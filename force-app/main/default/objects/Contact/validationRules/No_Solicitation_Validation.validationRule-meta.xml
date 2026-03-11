@@ -3,7 +3,8 @@
     <fullName>No_Solicitation_Validation</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-    No_Solicitation__c,
+    No_Solicitation__c,    NOT($Permission.ByPass_Validation),
+
     OR(
         ISCHANGED(Donor_Emails__c) &amp;&amp; Donor_Emails__c,
         ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,

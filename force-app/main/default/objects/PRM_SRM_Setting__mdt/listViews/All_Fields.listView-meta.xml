@@ -6,7 +6,6 @@
     <columns>Opportunity_Record_Type_Name__c</columns>
     <columns>State__c</columns>
     <columns>PRM_Username__c</columns>
-    <columns>SRM_Username__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Fields</label>
     <language>en_US</language>

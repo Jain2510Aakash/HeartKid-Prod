@@ -18,5 +18,10 @@
         <operation>greaterThan</operation>
         <value>7/1/2024 12:00 AM</value>
     </filters>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>1/1/2025 12:00 AM</value>
+    </filters>
     <label>My Cases</label>
 </ListView>

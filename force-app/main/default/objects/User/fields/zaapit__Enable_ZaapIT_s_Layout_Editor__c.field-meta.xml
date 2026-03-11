@@ -6,5 +6,6 @@
     <description>Enable the user to change ZaapIT&apos;s Layout Editor for smart tables/update</description>
     <label>Enable ZaapIT&apos;s Layout Editor</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

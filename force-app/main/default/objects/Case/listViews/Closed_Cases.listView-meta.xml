@@ -14,10 +14,5 @@
         <operation>equals</operation>
         <value>Closed</value>
     </filters>
-    <filters>
-        <field>CASES.SUBJECT</field>
-        <operation>equals</operation>
-        <value>Surgical</value>
-    </filters>
     <label>Closed Cases</label>
 </ListView>

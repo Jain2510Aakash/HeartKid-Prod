@@ -3,7 +3,8 @@
     <fullName>Support_Personal_Validation</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-    Support_Personal_1_1_Only__c,
+    Support_Personal_1_1_Only__c,    NOT($Permission.ByPass_Validation),
+
     OR(
         ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
         ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c,

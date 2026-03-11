@@ -1008,10 +1008,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Fundraising</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Heartbeads</fullName>
             <default>false</default>
         </values>
@@ -1117,10 +1113,6 @@
         </values>
         <values>
             <fullName>Unsuccessful In-person Hospital Catch-Up</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Unsuccessful Phone Call</fullName>
             <default>false</default>
         </values>
         <values>

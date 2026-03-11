@@ -3,7 +3,8 @@
     <fullName>No_SMS_Validation</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-    No_SMS__c,
+    No_SMS__c,    NOT($Permission.ByPass_Validation),
+
     OR(
         ISCHANGED(Donor_SMS__c) &amp;&amp; Donor_SMS__c,
         ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c

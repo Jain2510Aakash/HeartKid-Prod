@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Open_Cases_for_Maree_Green</fullName>
-    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
     <columns>CASES.CASE_NUMBER</columns>
     <columns>NAME</columns>
     <columns>CASES.CLOSED</columns>
@@ -15,9 +15,9 @@
         <value>Maree Green</value>
     </filters>
     <filters>
-        <field>CASES.STATUS</field>
+        <field>CASES.CLOSED</field>
         <operation>equals</operation>
-        <value>In progress</value>
+        <value>0</value>
     </filters>
     <label>Open Cases for Maree Green</label>
 </ListView>

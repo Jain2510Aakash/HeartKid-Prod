@@ -3,7 +3,7 @@
     <fullName>Key_Strategic_Communication__c</fullName>
     <defaultValue>false</defaultValue>
     <description>This is the group of people HeartKids would like to post or email key information to</description>
-    <inlineHelpText>This is the group of people HeartKids would like to post or email key information to</inlineHelpText>
+    <inlineHelpText>Exclusive updates SLT access only</inlineHelpText>
     <label>Key Strategic Communication</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

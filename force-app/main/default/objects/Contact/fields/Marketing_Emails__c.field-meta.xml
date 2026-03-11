@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Marketing_Emails__c</fullName>
     <defaultValue>false</defaultValue>
-    <label>Marketing Emails</label>
+    <label>Marketing Emails (Newsletter)</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

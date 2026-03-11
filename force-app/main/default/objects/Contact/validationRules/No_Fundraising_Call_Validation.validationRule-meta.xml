@@ -3,7 +3,8 @@
     <fullName>No_Fundraising_Call_Validation</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-    No_Telemarketing__c	,
+    No_Telemarketing__c	,    NOT($Permission.ByPass_Validation),
+
     OR(
         ISCHANGED(Donor_Phone_Calls__c) &amp;&amp; Donor_Phone_Calls__c
     )

@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates the Contact does not want your organization to call or email. Use this field to filter out Contacts in email and phone lists. When selected, NPSP excludes this Contact from Opportunity Acknowledgements.</description>
-    <inlineHelpText>No communication including 1:1</inlineHelpText>
+    <inlineHelpText>No communication at all including 1:1</inlineHelpText>
     <label>Do Not Contact</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>

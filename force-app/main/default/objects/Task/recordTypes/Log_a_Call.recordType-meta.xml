@@ -191,6 +191,58 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>WA %E2%80%93 Albany Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 BRAMS Clinic %28Broome AMS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Broome Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Carnarvon Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 DAHS Clinic %28Derby AHS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Fitzroy Crossing Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Geraldton Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Halls Creek Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Kalgoorlie Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Karratha Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Kununurra Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 OVAHS Clinic %28Ord Valley AHS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA %E2%80%93 Port Hedland Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>WA - King Edward Memorial Hospital</fullName>
             <default>false</default>
         </values>
@@ -676,10 +728,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Fundraising</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Heartbeads</fullName>
             <default>false</default>
         </values>
@@ -717,10 +765,6 @@
         </values>
         <values>
             <fullName>Tertiary Outpatient Clinic</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Unsuccessful Phone Call</fullName>
             <default>false</default>
         </values>
         <values>

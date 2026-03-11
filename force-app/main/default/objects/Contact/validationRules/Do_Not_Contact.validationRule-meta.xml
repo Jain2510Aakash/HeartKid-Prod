@@ -4,6 +4,7 @@
     <active>true</active>
     <errorConditionFormula>AND(
     npsp__Do_Not_Contact__c,
+    NOT($Permission.ByPass_Validation),
     OR(
         ISCHANGED(Marketing_Emails__c) &amp;&amp; Marketing_Emails__c,
         ISCHANGED(Marketing_SMS__c) &amp;&amp; Marketing_SMS__c,
@@ -15,8 +16,7 @@
         ISCHANGED(Healthcare_Professional_Newsletter__c) &amp;&amp; Healthcare_Professional_Newsletter__c,
         ISCHANGED(No_Newsletter__c) &amp;&amp; !No_Newsletter__c,
         ISCHANGED(No_Telemarketing__c) &amp;&amp; !No_Telemarketing__c,
-        ISCHANGED(No_Solicitation__c) &amp;&amp; !No_Solicitation__c	
-
+        ISCHANGED(No_Solicitation__c) &amp;&amp; !No_Solicitation__c
     )
 )</errorConditionFormula>
     <errorDisplayField>npsp__Do_Not_Contact__c</errorDisplayField>

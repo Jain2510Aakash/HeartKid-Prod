@@ -3,22 +3,6 @@
     <apiVersion>58.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
-        <name>Set_Donor_Emails</name>
-        <label>Set Donor Emails</label>
-        <locationX>215</locationX>
-        <locationY>3758</locationY>
-        <assignmentItems>
-            <assignToReference>Record.Donor_Emails__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Assess_Supporter_Type</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Set_Email</name>
         <label>Set Email</label>
         <locationX>358</locationX>
@@ -111,7 +95,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Assess_Is_New_Record</targetReference>
+            <targetReference>Assess_Supporter_Type</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -176,22 +160,6 @@
         </assignmentItems>
         <connector>
             <targetReference>Assess_External_System_Name_Raisely</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Set_Marketing_Emails</name>
-        <label>Set Marketing Emails</label>
-        <locationX>215</locationX>
-        <locationY>3650</locationY>
-        <assignmentItems>
-            <assignToReference>Record.Marketing_Emails__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Set_Donor_Emails</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -262,7 +230,7 @@
         <name>Set_Supporter_Type_Donor</name>
         <label>Set Supporter Type</label>
         <locationX>930</locationX>
-        <locationY>4226</locationY>
+        <locationY>3434</locationY>
         <assignmentItems>
             <assignToReference>Record.Supporter_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -275,7 +243,7 @@
         <name>Set_Supporter_Type_Fundraiser</name>
         <label>Set Supporter Type</label>
         <locationX>138</locationX>
-        <locationY>4226</locationY>
+        <locationY>3434</locationY>
         <assignmentItems>
             <assignToReference>Record.Supporter_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -288,7 +256,7 @@
         <name>Set_Supporter_Type_Regular_Donor</name>
         <label>Set Supporter Type</label>
         <locationX>402</locationX>
-        <locationY>4226</locationY>
+        <locationY>3434</locationY>
         <assignmentItems>
             <assignToReference>Record.Supporter_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -301,7 +269,7 @@
         <name>Set_Supporter_Type_Sponser_Donation</name>
         <label>Set Supporter Type</label>
         <locationX>666</locationX>
-        <locationY>4226</locationY>
+        <locationY>3434</locationY>
         <assignmentItems>
             <assignToReference>Record.Supporter_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -316,7 +284,7 @@
         <locationX>666</locationX>
         <locationY>3026</locationY>
         <defaultConnector>
-            <targetReference>Assess_Is_New_Record</targetReference>
+            <targetReference>Assess_Supporter_Type</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -347,31 +315,6 @@
                 <targetReference>Set_Is_A_Fundraiser</targetReference>
             </connector>
             <label>Fundraiser</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Assess_Donation_Key</name>
-        <label>Assess Donation Key</label>
-        <locationX>347</locationX>
-        <locationY>3542</locationY>
-        <defaultConnector>
-            <targetReference>Assess_Supporter_Type</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Exists_Donation_Key</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Donation_Key</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Set_Marketing_Emails</targetReference>
-            </connector>
-            <label>Exists</label>
         </rules>
     </decisions>
     <decisions>
@@ -497,56 +440,6 @@
                 <targetReference>Assess_External_Id</targetReference>
             </connector>
             <label>Exists</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Assess_Is_Actor</name>
-        <label>Assess Is Actor</label>
-        <locationX>501</locationX>
-        <locationY>3434</locationY>
-        <defaultConnector>
-            <targetReference>Assess_Supporter_Type</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>True_Is_Actor</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>IsActor</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Assess_Donation_Key</targetReference>
-            </connector>
-            <label>True</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Assess_Is_New_Record</name>
-        <label>Assess Is New Record</label>
-        <locationX>666</locationX>
-        <locationY>3326</locationY>
-        <defaultConnector>
-            <targetReference>Assess_Supporter_Type</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>True_Is_New_Record</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>IsNewRecord</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Assess_Is_Actor</targetReference>
-            </connector>
-            <label>True</label>
         </rules>
     </decisions>
     <decisions>
@@ -783,7 +676,7 @@
         <name>Assess_Supporter_Type</name>
         <label>Assess Supporter Type</label>
         <locationX>666</locationX>
-        <locationY>4118</locationY>
+        <locationY>3326</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Fundraiser_Type</name>
@@ -1015,13 +908,6 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
-        <name>Donation_Key</name>
-        <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-    <variables>
         <name>DuplicateCheck</name>
         <dataType>Boolean</dataType>
         <isCollection>false</isCollection>
@@ -1037,13 +923,6 @@
     </variables>
     <variables>
         <name>IsActor</name>
-        <dataType>Boolean</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-    <variables>
-        <name>IsNewRecord</name>
         <dataType>Boolean</dataType>
         <isCollection>false</isCollection>
         <isInput>true</isInput>

@@ -162,7 +162,7 @@
         <label>Dependents Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Dependents</pluralLabel>
+    <pluralLabel>Dependent</pluralLabel>
     <profileSearchLayouts>
         <fields>NAME</fields>
         <fields>First_Name__c</fields>
@@ -185,6 +185,6 @@
         <searchResultsAdditionalFields>Birthdate__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Dependent_Status__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
